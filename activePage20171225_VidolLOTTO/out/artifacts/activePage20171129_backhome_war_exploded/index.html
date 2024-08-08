@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW" xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+    <title>Vidol玩轉盤天天抽大獎</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="og:description" content="Vidol玩轉盤天天抽大獎" />
+    <meta property="og:title" content="Vidol玩轉盤天天抽大獎"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://event.vidol.tv/VidolLOTTO/index.html"/>
+    <meta property="og:image" content="http://event.vidol.tv/VidolLOTTO/image/180103_Event.jpg"/>
+    <meta property="og:site_name" content="VidolLOTTO" />
+    <meta property="fb:admins" content="ADt9yhhL8SU"/>
+
+    <link rel="stylesheet" href="./css/vendors/jquery-ui.css">
+    <link rel="stylesheet" href="./css/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <script src="./js/vendors/jquery-3.1.1.min.js"></script>
+    <script src="./js/vendors/jquery-ui.js"></script>
+    <script src="./js/vendors/awardRotate.js"></script>
+    <script src="./js/vendors/birthday.js"></script>
+    <script src="./js/vendors/tw-city-selector.min.js"></script>
+    <script src="./js/vendors/jquery.tinyscrollbar.js"></script>
+    <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+    <!--<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />-->
+    <!--<script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>-->
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-72369369-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+</head>
+<body>
+    <input type="hidden" name="fb_uid" value="">
+    <input type="hidden" name="fb_token" value="">
+    <input type="hidden" name="fb_expires" value="">
+    <input type="hidden" name="token" value="">
+    <input type="hidden" name="config_id" value="">
+
+    <div id="main">
+        <div class="top">
+            <div class="logo myMouse" onclick="window.open('http://vidol.tv/','_bank')"></div>
+            <div class="share">
+                <div id="FB_share" class="myMouse"></div>
+                <div id="vidolIG_link" class="myMouse" onclick="window.open('https://www.instagram.com/vidol.tv/', '_blank');"></div>
+                <div id="line_share" class="myMouse"></div>
+                <div id="vidol-link" class="myMouse" onclick="window.open('http://vidol.tv/', '_blank');"></div>
+            </div>
+        </div>
+        <div class="status">
+            <div><span class="clounmName">您現在身份：</span><span class="memberLevel">VIP會員</span></div>
+            <div><span class="clounmName">剩餘次數：</span><span class="forMobile">/剩餘</span><span class="times">2</span>次</div>
+        </div>
+        <div class="mainPic">
+            <div class="turntable">
+                <div class="prizeTray"></div>
+                <div class="outerFrame">
+                    <div class="point"></div>
+                    <div class="priceBtn myMouse"></div>
+                    <div class="unclickMask"></div>
+                    <div class="lootBtn myMouse"></div>
+                </div>
+            </div>
+            <div class="descriptionBtn myMouse"></div>
+            <div class="activepriceBtn myMouse"></div>
+            <div class="main_box">
+                <div class="description">
+                    <div class="atentionBtn myMouse"></div>
+                </div>
+                <div class="activeprice"></div>
+            </div>
+        </div>
+        <div class="description-forMobile">
+            <div class="backIndex myMouse"></div>
+            <div class="des"></div>
+            <div class="atentionBtn myMouse"></div>
+        </div>
+        <div class="activeprice-forMobile">
+            <div class="backIndex myMouse"></div>
+            <div class="prize"></div>
+            <div class="atentionBtn myMouse"></div>
+        </div>
+        <div class="becomeVIP">
+            <div class="words"></div>
+            <div class="continue" onclick="window.open('http://vidol.tv/plans','_blank')"></div>
+            <div class="seeDrama" onclick="window.open('http://vidol.tv/','_blank')"></div>
+        </div>
+        <div class="useOverVIP">
+            <div class="words"></div>
+            <div class="seeDrama" onclick="window.open('http://vidol.tv/','_blank')"></div>
+        </div>
+        <div class="organizer">
+            <div class="vidol myMouse" onclick="window.open('http://vidol.tv/','_blank')"></div>
+            <div class="setn myMouse" onclick="window.open('http://www.setn.com/','_blank')"></div>
+            <div class="electGo myMouse" onclick="window.open('https://www.setddg.com/setddg/','_blank')"></div>
+        </div>
+    </div>
+    <div class="notGetward"><img src="./image/pop1_no_X.png"></div>
+    <div class="awardBG">
+        <div class="getRewarded_step1">
+            <div class="awardImage">
+                <img src="./image/turntable/round_1/pop2_666.png">
+            </div>
+            <div class="awardName">
+                <img src="./image/turntable/round_1/pop2_666W.png">
+            </div>
+            <div class="nextBtn myMouse"></div>
+        </div>
+        <div class="getRewarded_step2">
+            <div class="btn_X myMouse"></div>
+            <div class="words"></div>
+            <form id="form1" name="form1" method="post" action="" onclick="return false">
+                <div class="name" tag="name"><span>姓名</span>
+                    <input type="text" id="name" value="">
+                </div>
+                <div class="sex" tag="sex"><span>性別</span>
+                    <select id="sex" name="slectorforSex">
+                        　<option value="male">男</option>
+                        　<option value="female">女</option>
+                    </select>
+                </div>
+                <div class="birthday" tag="birthday"><span>生日</span>
+                    <select class="sel_year" id="sel_year" rel="2000"></select> 年
+                    <select class="sel_month" id="sel_month" rel="--"></select> 月
+                    <select class="sel_day" id="sel_day" rel="--"></select> 日
+                </div>
+                <div class="phone" tag="phone"><span>手機</span>
+                    <input type="text" class="ic" name="international_code" value="886" onkeyup="numcheck(this.id,this)">
+                    <input type="text" id="phone" placeholder="912-345-678" onkeyup="numcheck(this.id,this)">
+                </div>
+
+                <div class="my-selector-c address" tag="address" role="tw-city-selector"><span>聯絡地址</span>
+                    <select id="country" onchange="setCountry()">
+                        　<option value="taiwan">台灣</option>
+                        　<option value="foreign">海外</option>
+                    </select>
+                    <select id="city" class="county" name="county" data-selected="台北市"></select>
+                    <select id="area" class="district"></select>
+                    <div id="zipcode" style="visibility: hidden;"></div>
+                    <input type="text" id="address" placeholder="請輸入地址">
+                </div>
+                <div class="email" tag="email"><span>E-mail</span>
+                    <input type="text" id="email">
+                </div>
+                <div class="btn2 myMouse" type="submit" name="button" id="button" value="送出"></div>
+            </form>
+        </div>
+
+        <div class="currentlyLoot">
+            <div class="btn_X myMouse"></div>
+            <div id="scrollbar1">
+                <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+
+                <div class="own">
+                    <div class="visible viewport">
+                        <table class="overview"></table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="empty"></div>
+        </div>
+    </div>
+    <div class="atentionPage">
+        <div class="pop">
+            <img src="./image/pop5_X_bk.png" class="myMouse">
+            <div class="content">
+                活動注意事項：<br>
+                 <br>
+                1. 本活動於轉盤機停止後將即時公布獎項。若中獎人未於 24 小時內填寫會員資料或有填寫無效資料之情況，視同放棄中獎資格。<br>
+                <br>
+                2. 若因中獎人提供的地址或資料錯誤或其他可歸責於中獎人之事由導致獎品無法送達、遺失、盜領或毀損者，主辦單位將不再重寄獎品，相關責任由中獎人自行承擔，如有不便尚請見諒。<br>
+                <br>
+                3. 獎品以實物為準，不得折換現金。如遇產品缺貨或不可抗力之事由，主辦單位有權變更獎品內容，並改由其他等值商品取代，得獎者不得異議。且主辦單位與活動單位就該獎品不負任何維修及保固責任。<br>
+                <br>
+                4. 本活動將記錄您的會員身份資料，本公司將會自活動結束日起算 1 年內，在台灣地區（台、澎、金、馬）做以下目的使用：<br>
+                (1)「Vidol 轉盤機」網路抽獎活動的中獎聯絡之用。<br>
+                (2) 活動得獎者為聯繫而提供之個人資料，將用作本抽獎活動中獎者寄送獎品之用，本公司將基於配送獎品之目的， 將個人資料提供予委任處理本活動相關事務之必要第三人（如：公司同仁、合作廠商、物流廠商）。<br>
+                (3) 蒐集之個人資料類別：電子郵件與其他可供辨識本人之個人資料。<br>
+                <br>
+                5. 依稅法規定，得獎價值超過新台幣 1,000 元以上者，需繳交身分證影本報稅使用，贈品價值超過新台幣 20,000 元以上，依法須負擔 10% 機會中獎稅，並於次年度寄發所得稅扣(免)繳憑單；若非中華民國國境內居住之國人（即在中華民國境內居住未達 183 天之本國人及外國人），不論得獎人所得之金額，須就中獎所得扣繳 20% 機會中獎稅，扣繳稅款未超過 2,000元，免扣繳（外籍人士不適用）；未滿 14 歲之兒童中獎，視同監護人中獎，由監護人代為領取。<br>
+                <br>
+                6. 本活動獎項若超過新台幣 2,000 元，領取方式將由主辦單位聯繫確認為主；若未超過新台幣 2,000 元，除序號獎項可直接寄發至得獎者信箱外，其餘寄送地區僅限台、澎、金、馬之郵局可送達地區，請恕無法寄送至海外地區。<br>
+                <br>
+                7. 主辦單位保有最終修正、暫停或終止本活動之權利。<br>
+                <br>
+                8. 獎項圖片僅為示意圖，所有顏色規格以實際獎品為準。<br>
+                <br>
+                9. 在活動過程中如有任何疑問，請與活動單位聯絡，來信請寄到：service@vidol.tv <br>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="bg-white">
+            <div class="content">
+                <span class="left">© 2017 Vidol All Rights Reserved 版權所有 盜用必究</span>
+                <span class="right">台北市內湖區舊宗路一段159號 02-8792-8888</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer-forMobilePage1">
+        <div class="bg">
+            <div class="btn-group">
+                <div class="descriptionBtn-mobile myMouse"></div>
+                <div class="activepriceBtn-mobile myMouse"></div>
+            </div>
+
+            <div class="content">© 2017 Vidol All Rights Reserved 版權所有 盜用必究</div>
+        </div>
+    </div>
+    <!--login window+background-->
+    <div id="loginBg"></div>
+    <div id="login" style="display:none">
+        <input type="text" name="username" value="" placeholder="Email">
+        <input type="password" name="password" value="" placeholder="密碼">
+        <div class="login_vidol">會員登入</div>
+        <div class="line"></div>
+        <div class="or">或</div>
+        <div class="login_facebook">Facebook登入</div>
+        <div class="text">
+            <span><a href="http://vidol.tv/users/signup">尚未加入 Vidol?加入會員</a></span>
+        </div>
+    </div>
+    <script src="./js/config.js"></script>
+    <script src="./js/EventVote.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+</html>

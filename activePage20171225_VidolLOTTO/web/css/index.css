@@ -1,0 +1,1866 @@
+@charset "UTF-8";
+html {
+  height: 100%; }
+
+body {
+  font-family: "微軟正黑體","Microsoft JhengHei","DFHei",Arial;
+  overflow-x: hidden;
+  background-color: #1b1110; }
+
+#main {
+  z-index: 0;
+  max-width: 1551px;
+  margin: 0 auto;
+  width: 100%;
+  background: url("../image/background.png") no-repeat;
+  background-size: 100%; }
+  #main .top {
+    margin: 0 auto;
+    padding-top: 56px;
+    width: 82.27%;
+    position: relative;
+    z-index: 5; }
+    #main .top .logo {
+      display: inline-block;
+      background: url("../image/Vidol_logo_170x55.png") no-repeat;
+      background-size: 100%;
+      width: 170px;
+      height: 55px; }
+    #main .top .share {
+      float: right;
+      margin-top: 25px; }
+      #main .top .share div {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 10px;
+        width: 30px;
+        height: 30px; }
+      #main .top .share div:last-child {
+        margin-right: 0px; }
+      #main .top .share #FB_share {
+        background: url("../image/FB.png") no-repeat;
+        background-size: 100%; }
+      #main .top .share #vidolIG_link {
+        background: url("../image/instagram.png") no-repeat;
+        background-size: 100%; }
+      #main .top .share #line_share {
+        background: url("../image/Line.png") no-repeat;
+        background-size: 100%; }
+      #main .top .share #vidol-link {
+        background: url("../image/V_LOGO.png") no-repeat;
+        background-size: 100%; }
+  #main .status {
+    display: none;
+    position: relative;
+    z-index: 5;
+    float: right;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #ffd6ff;
+    top: 20px;
+    right: 134px;
+    font-size: 20px; }
+    #main .status .forMobile {
+      display: none; }
+  #main .mainPic {
+    display: block;
+    background: url("../image/main.png") no-repeat;
+    background-size: 100%;
+    width: 1250px;
+    margin-left: 122px;
+    padding-top: 320px;
+    margin-top: -77px; }
+    #main .mainPic .turntable {
+      background: url(../image/Turntable_01.png) no-repeat;
+      background-size: 100%;
+      width: 658px;
+      height: 765px;
+      margin-left: 25.55%; }
+      #main .mainPic .turntable .prizeTray {
+        background: url("../image/Turntable_02.png") no-repeat;
+        background-size: 100%;
+        width: 446px;
+        height: 445px;
+        position: absolute;
+        margin-left: 108px;
+        margin-top: 101px; }
+      #main .mainPic .turntable .outerFrame {
+        background: url("../image/Turntable_03.png") no-repeat;
+        background-size: 100%;
+        width: 582px;
+        height: 581px;
+        position: absolute;
+        margin-left: 42px;
+        margin-top: 32px; }
+        #main .mainPic .turntable .outerFrame .point {
+          background: url("../image/Turntable_04.png") no-repeat;
+          background-size: 100%;
+          width: 57px;
+          height: 94px;
+          margin: 0 auto;
+          margin-top: 14px; }
+        #main .mainPic .turntable .outerFrame .priceBtn {
+          background: url("../image/Turntable_Button.png") no-repeat;
+          background-size: 100%;
+          width: 196px;
+          height: 196px;
+          margin: 0 auto;
+          margin-top: 87px; }
+        #main .mainPic .turntable .outerFrame .unclickMask {
+          visibility: hidden;
+          background-color: rgba(0, 62, 255, 0);
+          width: 15vw;
+          height: 196px;
+          margin: 0 auto;
+          position: relative;
+          top: -197px; }
+        #main .mainPic .turntable .outerFrame .lootBtn {
+          background: url(../image/Button01.png) no-repeat;
+          background-size: 100%;
+          width: 157px;
+          height: 45px;
+          margin: 0 auto; }
+        #main .mainPic .turntable .outerFrame .lootBtn:hover {
+          background-image: url("../image/Button01Y.png"); }
+    #main .mainPic .descriptionBtn {
+      background: url(../image/Button02_event.png) no-repeat;
+      background-size: 100%;
+      width: 165px;
+      height: 63px;
+      position: absolute;
+      margin-left: 478px;
+      margin-top: -30px; }
+    #main .mainPic .descriptionBtn:hover {
+      background-image: url("../image/Button02R_event.png"); }
+    #main .mainPic .activepriceBtn {
+      background: url("../image/Button03_prize.png") no-repeat;
+      background-size: 100%;
+      width: 165px;
+      height: 63px;
+      position: absolute;
+      margin-left: 648px;
+      margin-top: -30px; }
+    #main .mainPic .activepriceBtn:hover {
+      background-image: url("../image/Button03R_prize.png"); }
+    #main .mainPic .main_box {
+      display: block;
+      background: url("../image/main_box.png") no-repeat;
+      background-size: 100%;
+      width: 1091px;
+      height: 451px;
+      margin: 0 auto;
+      margin-top: -29px; }
+      #main .mainPic .main_box .description {
+        display: block;
+        background: url(../image/main_box_words.png) no-repeat;
+        background-size: 100%;
+        width: 56%;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 3.6vw;
+        left: 1.2vw; }
+        #main .mainPic .main_box .description .atentionBtn {
+          background: url(../image/mobile/activeDes/mo_event_atention.png) no-repeat;
+          background-size: 100%;
+          width: 33%;
+          position: absolute;
+          height: 1vw;
+          top: 320px;
+          right: 0px; }
+        #main .mainPic .main_box .description .atentionBtn:hover {
+          background-image: url("../image/mobile/activeDes/mo_event_atentionY.png"); }
+      #main .mainPic .main_box .activeprice {
+        display: none;
+        background: url(../image/main_box_prize.png) no-repeat;
+        background-size: 100%;
+        width: 61.5%;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 3.35vw;
+        left: 1.4vw; }
+  #main .description-forMobile {
+    display: none; }
+  #main .becomeVIP {
+    display: none;
+    background: url(../image/pop4_background.png) no-repeat;
+    background-size: 100%;
+    width: 1357px;
+    height: 1025px;
+    margin: 0 auto;
+    padding-top: 320px;
+    margin-top: -116px;
+    text-align: center; }
+    #main .becomeVIP .words {
+      background: url("../image/pop4_0words.png") no-repeat;
+      background-size: 100%;
+      width: 669px;
+      height: 171px;
+      margin: 0 auto;
+      margin-top: 105px; }
+    #main .becomeVIP .continue {
+      background: url("../image/pop4_2Button.png") no-repeat;
+      background-size: 100%;
+      width: 232px;
+      height: 75px;
+      display: inline-block;
+      margin-top: 53px;
+      margin-right: 60px; }
+    #main .becomeVIP .continue:hover {
+      background-image: url("../image/pop4_2ButtonY.png"); }
+    #main .becomeVIP .seeDrama {
+      background: url("../image/pop4_1Button.png") no-repeat;
+      background-size: 100%;
+      width: 232px;
+      height: 75px;
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 53px; }
+    #main .becomeVIP .seeDrama:hover {
+      background-image: url("../image/pop4_1ButtonY.png"); }
+  #main .useOverVIP {
+    display: none;
+    background: url("../image/pop4_VIP_background.png") no-repeat;
+    background-size: 100%;
+    width: 1357px;
+    height: 1025px;
+    margin: 0 auto;
+    padding-top: 320px;
+    margin-top: -116px;
+    margin-bottom: -70px;
+    text-align: center; }
+    #main .useOverVIP .words {
+      background: url("../image/pop4_VIP_words.png") no-repeat;
+      background-size: 100%;
+      width: 669px;
+      height: 171px;
+      margin: 0 auto;
+      margin-top: 105px; }
+    #main .useOverVIP .seeDrama {
+      background: url("../image/pop4_VIP_Button.png") no-repeat;
+      background-size: 100%;
+      width: 232px;
+      height: 75px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 53px; }
+    #main .useOverVIP .seeDrama:hover {
+      background-image: url("../image/pop4_VIP_ButtonY.png"); }
+  #main .organizer {
+    width: 45%;
+    height: 25px;
+    margin: 15px auto;
+    background: url(../image/unit/unit_W.png) no-repeat;
+    background-size: 45%;
+    background-position-y: center;
+    background-position-x: 105px;
+    position: relative;
+    bottom: 0px; }
+    #main .organizer .vidol {
+      background: url(../image/unit/Vidol.png) no-repeat;
+      background-size: 100%;
+      width: 60px;
+      height: 22px;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 205px; }
+    #main .organizer .setn {
+      background: url(../image/unit/setn.png) no-repeat;
+      background-size: 100%;
+      width: 130px;
+      height: 25px;
+      display: inline-block;
+      margin-left: 169px;
+      vertical-align: top;
+      margin-top: 4px; }
+    #main .organizer .electGo {
+      background: url(../image/unit/electGo.png) no-repeat;
+      background-size: 100%;
+      width: 84px;
+      height: 30px;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 12px; }
+
+.notGetward {
+  display: none;
+  position: fixed;
+  top: 57vh;
+  left: calc((100% - 601px)/2);
+  z-index: 1;
+  background: url(../image/pop1_no_prize.png) no-repeat;
+  background-size: 100%;
+  width: 601px;
+  height: 182px; }
+  .notGetward img {
+    position: absolute;
+    right: 33px;
+    top: 30px; }
+
+.awardBG {
+  display: none;
+  background-color: rgba(27, 17, 16, 0.6);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  overflow-y: scroll; }
+  .awardBG .getRewarded_step1 {
+    display: none;
+    background: url(../image/pop2_red_envelope.png) no-repeat;
+    background-size: 100%;
+    width: 988px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 15.7vh; }
+    .awardBG .getRewarded_step1 .awardImage {
+      margin: 0 auto;
+      width: 345px;
+      height: 250px;
+      line-height: 250px;
+      position: relative;
+      top: 55px;
+      left: 13px;
+      text-align: center; }
+      .awardBG .getRewarded_step1 .awardImage img {
+        width: 60%; }
+    .awardBG .getRewarded_step1 .awardName {
+      margin: 0 auto;
+      width: 360px;
+      height: 92px;
+      line-height: 92px;
+      position: relative;
+      top: 192px;
+      left: 14px;
+      text-align: center; }
+      .awardBG .getRewarded_step1 .awardName img {
+        width: 80%; }
+    .awardBG .getRewarded_step1 .nextBtn {
+      background: url("../image/pop2_Button.png") no-repeat;
+      background-size: 100%;
+      width: 218px;
+      height: 61px;
+      margin: 0 auto;
+      position: relative;
+      top: 310px;
+      left: 14px; }
+    .awardBG .getRewarded_step1 .nextBtn:hover {
+      background-image: url("../image/pop2_ButtonY.png"); }
+  .awardBG .getRewarded_step2 {
+    display: none;
+    margin: 0 auto;
+    margin-top: 329px;
+    background: url(../image/pop3_background.png) no-repeat;
+    background-size: 100%;
+    width: 974px;
+    height: 616px;
+    padding: 66px 53px; }
+    .awardBG .getRewarded_step2 .btn_X {
+      background: url(../image/pop3_X.png) no-repeat;
+      background-size: 100%;
+      width: 48px;
+      height: 48px;
+      float: right; }
+    .awardBG .getRewarded_step2 .words {
+      background: url(../image/pop3_words.png) no-repeat;
+      background-size: 100%;
+      width: 646px;
+      height: 45px;
+      margin: 0 auto;
+      margin-top: 22px; }
+    .awardBG .getRewarded_step2 form {
+      width: 646px;
+      text-align: left;
+      margin: 0 auto;
+      margin-top: 25px;
+      font-size: 25px;
+      color: #d5ae77; }
+      .awardBG .getRewarded_step2 form span {
+        font-weight: bold;
+        letter-spacing: 11px; }
+      .awardBG .getRewarded_step2 form div {
+        margin-top: 15px; }
+      .awardBG .getRewarded_step2 form input,
+      .awardBG .getRewarded_step2 form select {
+        border: 0;
+        width: 666px;
+        background-color: #5a493f;
+        color: #fff;
+        border-radius: 0px;
+        height: 36px;
+        line-height: 36px; }
+      .awardBG .getRewarded_step2 form input {
+        padding-left: 20px; }
+      .awardBG .getRewarded_step2 form select {
+        text-align-last: center;
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        background: url("../image/arrow.png") no-repeat right center transparent;
+        background-color: #5a493f;
+        padding-right: 40px; }
+        .awardBG .getRewarded_step2 form select option {
+          margin: 40px;
+          background: #5a493f;
+          color: #fff; }
+      .awardBG .getRewarded_step2 form select::-ms-expand {
+        display: none; }
+      .awardBG .getRewarded_step2 form input:focus,
+      .awardBG .getRewarded_step2 form select:focus {
+        outline: none; }
+      .awardBG .getRewarded_step2 form ::-webkit-input-placeholder {
+        /* WebKit browsers */
+        color: rgba(255, 255, 255, 0.5); }
+      .awardBG .getRewarded_step2 form :-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: rgba(255, 255, 255, 0.5); }
+      .awardBG .getRewarded_step2 form ::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: rgba(255, 255, 255, 0.5); }
+      .awardBG .getRewarded_step2 form :-ms-input-placeholder {
+        /* Internet Explorer 10+ */
+        color: rgba(255, 255, 255, 0.5); }
+      .awardBG .getRewarded_step2 form .name {
+        display: inline-block;
+        margin-right: 28px; }
+        .awardBG .getRewarded_step2 form .name input {
+          width: 266px; }
+      .awardBG .getRewarded_step2 form .sex {
+        display: inline-block;
+        vertical-align: top; }
+        .awardBG .getRewarded_step2 form .sex select {
+          width: 151px;
+          height: 37px;
+          line-height: 37px; }
+      .awardBG .getRewarded_step2 form .birthday select {
+        width: 151px; }
+      .awardBG .getRewarded_step2 form .phone input {
+        width: 449px; }
+      .awardBG .getRewarded_step2 form .phone .ic {
+        width: 103px;
+        margin-right: 8px;
+        text-align: center;
+        padding-left: 0; }
+      .awardBG .getRewarded_step2 form .address select {
+        margin-right: 8px;
+        width: 181px; }
+      .awardBG .getRewarded_step2 form .address #country {
+        width: 103px; }
+      .awardBG .getRewarded_step2 form .address #area {
+        margin-right: 0px; }
+      .awardBG .getRewarded_step2 form .address #zipcode {
+        display: none; }
+      .awardBG .getRewarded_step2 form .address input {
+        width: 495px;
+        margin-left: 151px;
+        margin-top: 11px; }
+      .awardBG .getRewarded_step2 form .email span {
+        letter-spacing: normal;
+        margin-right: 10px; }
+      .awardBG .getRewarded_step2 form .email input {
+        width: 554px; }
+    .awardBG .getRewarded_step2 .btn2 {
+      background: url("../image/pop3_Button.png") no-repeat;
+      width: 218px;
+      height: 61px;
+      background-size: 100%;
+      margin: 0 auto;
+      margin-top: 25px;
+      cursor: pointer; }
+    .awardBG .getRewarded_step2 .btn2:hover {
+      background-image: url("../image/pop3_ButtonY.png"); }
+  .awardBG .currentlyLoot {
+    display: none;
+    margin: 0 auto;
+    margin-top: 405px;
+    background: url("../image/pop5_background.png") no-repeat;
+    background-size: 100%;
+    width: 962px;
+    height: 350px;
+    padding: 35px 32px; }
+    .awardBG .currentlyLoot .btn_X {
+      background: url("../image/pop5_X.png") no-repeat;
+      background-size: 100%;
+      width: 48px;
+      height: 48px;
+      float: right; }
+    .awardBG .currentlyLoot .scrollBar {
+      display: none;
+      background: url(../image/pop5_line.png) no-repeat;
+      background-size: 100%;
+      width: 9px;
+      height: 161px;
+      float: right;
+      margin-top: 89px; }
+      .awardBG .currentlyLoot .scrollBar img {
+        margin-left: -21px; }
+    .awardBG .currentlyLoot .own {
+      background: url("../image/pop5_prize.png") no-repeat;
+      background-size: 100%;
+      width: 717px;
+      height: 229px;
+      margin: 0 auto;
+      margin-top: 23px; }
+      .awardBG .currentlyLoot .own .visible {
+        height: 168px;
+        width: 761px;
+        overflow-y: scroll;
+        position: relative;
+        top: 61px; }
+        .awardBG .currentlyLoot .own .visible table {
+          width: 100%;
+          color: #fff;
+          font-size: 24px;
+          border-spacing: 0px 11px;
+          border-collapse: separate; }
+          .awardBG .currentlyLoot .own .visible table tr {
+            height: 55px;
+            background-color: #5a493f; }
+          .awardBG .currentlyLoot .own .visible table .awardName {
+            padding-left: 22px; }
+          .awardBG .currentlyLoot .own .visible table .num {
+            text-align: center;
+            width: 19.6%;
+            font-size: 20px; }
+            .awardBG .currentlyLoot .own .visible table .num .count {
+              font-size: 26px; }
+    .awardBG .currentlyLoot .empty {
+      display: none;
+      background: url("../image/pop5_No_prize.png") no-repeat;
+      background-size: 100%;
+      width: 465px;
+      height: 23px;
+      margin: 0 auto;
+      margin-top: 125px; }
+
+.atentionPage {
+  display: none;
+  background-color: rgba(27, 17, 16, 0.6);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  overflow-y: scroll; }
+  .atentionPage .pop {
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+    margin-top: 12vw;
+    background-color: white; }
+    .atentionPage .pop img {
+      width: 2.5vw;
+      height: 2.5vw;
+      float: right;
+      right: 3vw;
+      margin-top: 1vw;
+      margin-right: 1vw; }
+    .atentionPage .pop .content {
+      width: 80%;
+      height: 100%;
+      overflow-y: scroll;
+      text-align: justify;
+      color: #000;
+      margin: 0 auto;
+      font-size: 20px;
+      padding-top: 3vw; }
+
+.footer {
+  display: block;
+  background-color: #2684e9;
+  width: 100%;
+  position: relative;
+  z-index: 5; }
+  .footer .bg-white {
+    background-color: #502E27;
+    position: relative;
+    height: 77px;
+    line-height: 77px; }
+    .footer .bg-white .content {
+      color: rgba(255, 255, 255, 0.3);
+      width: 100%;
+      max-width: 1300px;
+      margin: 0 auto; }
+      .footer .bg-white .content .right {
+        display: block;
+        float: right;
+        margin-right: 5vw; }
+      .footer .bg-white .content .left {
+        margin-left: 5vw; }
+
+.footer-forMobilePage1 {
+  display: none; }
+
+#scrollbar1 {
+  width: 80%;
+  margin: 20px auto 10px;
+  position: relative; }
+  #scrollbar1 .viewport {
+    height: 168px;
+    width: 717px;
+    overflow: hidden;
+    position: relative; }
+  #scrollbar1 .overview {
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0; }
+  #scrollbar1 .scrollbar {
+    background: transparent url("../image/pop5_line.png") no-repeat 0 0;
+    position: absolute;
+    background-position: 0 0;
+    right: -56px;
+    top: 62px;
+    width: 38px;
+    background-position-x: center;
+    background-position-y: bottom; }
+  #scrollbar1 .track {
+    height: 100%;
+    width: 13px;
+    position: relative;
+    padding: 0 1px; }
+  #scrollbar1 .thumb {
+    background: transparent url("../image/pop5_gold.png") no-repeat 50% 100%;
+    width: 43px;
+    height: 25px;
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: -5px; }
+    #scrollbar1 .thumb .end {
+      display: none;
+      background: transparent url("../image/bg-scrollbar-thumb-y.png") no-repeat 50% 0;
+      overflow: hidden;
+      width: 43px;
+      height: 25px; }
+  #scrollbar1 .disable {
+    display: block; }
+
+@media screen and (max-width: 1551px) {
+  #main .top {
+    margin: 0 auto;
+    padding-top: 3.610574vw;
+    width: 82.269504vw;
+    position: relative;
+    z-index: 5; }
+    #main .top .logo {
+      display: inline-block;
+      background: url("../image/Vidol_logo_170x55.png") no-repeat;
+      background-size: 100%;
+      width: 10.96067vw;
+      height: 3.546099vw; }
+    #main .top .share {
+      float: right;
+      margin-top: 1.611863vw; }
+      #main .top .share div {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 0.644745vw;
+        width: 1.934236vw;
+        height: 1.934236vw; }
+      #main .top .share div:last-child {
+        margin-right: 0px; }
+      #main .top .share #FB_share {
+        background: url("../image/FB.png") no-repeat;
+        background-size: 100%; }
+      #main .top .share #vidolIG_link {
+        background: url("../image/instagram.png") no-repeat;
+        background-size: 100%; }
+      #main .top .share #line_share {
+        background: url("../image/Line.png") no-repeat;
+        background-size: 100%; }
+      #main .top .share #vidol-link {
+        background: url("../image/V_LOGO.png") no-repeat;
+        background-size: 100%; }
+  #main .status {
+    letter-spacing: 0.128949vw;
+    top: 1.289491vw;
+    right: 5.609284vw;
+    font-size: 1.547389vw; }
+  #main .mainPic {
+    width: 80.593166vw;
+    margin-left: 7.865893vw;
+    padding-top: 19.58vw;
+    margin-top: -4.964539vw; }
+    #main .mainPic .turntable {
+      width: 42.42vw;
+      height: 49.32vw;
+      margin-left: 25.55%; }
+      #main .mainPic .turntable .prizeTray {
+        width: 28.7556vw;
+        height: 28.691167vw;
+        margin-left: 6.96325vw;
+        margin-top: 6.511928vw; }
+      #main .mainPic .turntable .outerFrame {
+        width: 37.524178vw;
+        height: 37.459703vw;
+        margin-left: 2.70793vw;
+        margin-top: 2.063185vw; }
+        #main .mainPic .turntable .outerFrame .point {
+          width: 3.675vw;
+          height: 6.06vw;
+          margin-top: 0.902643vw; }
+        #main .mainPic .turntable .outerFrame .priceBtn {
+          width: 12.637vw;
+          height: 12.637vw;
+          margin-top: 5.609vw; }
+        #main .mainPic .turntable .outerFrame .unclickMask {
+          width: 12.637vw;
+          height: 12.637vw;
+          top: -13vw; }
+        #main .mainPic .turntable .outerFrame .lootBtn {
+          width: 10.1225vw;
+          height: 2.9vw; }
+    #main .mainPic .descriptionBtn,
+    #main .mainPic .activepriceBtn {
+      width: 10.638298vw;
+      height: 4.061896vw;
+      margin-top: -1.934vw; }
+    #main .mainPic .descriptionBtn {
+      margin-left: 30.818827vw; }
+    #main .mainPic .activepriceBtn {
+      margin-left: 41.779497vw; }
+    #main .mainPic .main_box {
+      width: 70.341715vw;
+      height: 29vw;
+      margin-top: -1.869761vw; }
+      #main .mainPic .main_box .description {
+        top: 4.5vw;
+        left: 1.5vw; }
+        #main .mainPic .main_box .description .atentionBtn {
+          height: 1.5vw;
+          top: 21vw; }
+    #main .mainPic .activeprice {
+      width: 70.341715vw;
+      height: 29.916183vw;
+      margin-top: -1.869761vw; }
+  #main .becomeVIP,
+  #main .useOverVIP {
+    width: 87.49vw;
+    height: 66.086vw;
+    padding-top: 20.63vw;
+    margin-top: -7.1vh; }
+    #main .becomeVIP .words,
+    #main .useOverVIP .words {
+      width: 43.13346vw;
+      height: 11.025vw;
+      margin-top: 6.7698vw; }
+    #main .becomeVIP .continue,
+    #main .useOverVIP .continue {
+      width: 14.958vw;
+      height: 4.84559vw;
+      margin-top: 3.41715vw;
+      margin-right: 3.868472vw; }
+    #main .becomeVIP .seeDrama,
+    #main .useOverVIP .seeDrama {
+      width: 14.958vw;
+      height: 4.83559vw;
+      margin-top: 3.41715vw; }
+  #main .organizer {
+    width: 45%;
+    height: 1.61186vw;
+    margin: 1vw auto;
+    background-position-x: 6.7698vw; }
+    #main .organizer .vidol {
+      width: 3.868vw;
+      height: 1.418vw;
+      margin-left: 13.217vw; }
+    #main .organizer .setn {
+      width: 8.38vw;
+      height: 1.6118vw;
+      margin-left: 10.896vw;
+      margin-top: 0.257898vw; }
+    #main .organizer .electGo {
+      width: 5.41586vw;
+      height: 1.934vw;
+      margin-left: 0.773694vw; }
+
+  .notGetward {
+    top: 38.362347vw;
+    left: calc((100% - 38.74919vw)/2);
+    width: 38.74919vw;
+    height: 11.734365vw; }
+    .notGetward img {
+      right: 2.12766vw;
+      top: 1.934236vw; }
+
+  .awardBG .getRewarded_step1 {
+    width: 63.700838vw;
+    height: 50vw; }
+    .awardBG .getRewarded_step1 .awardImage {
+      width: 22.243714vw;
+      height: 16.118633vw;
+      line-height: 16.118633vw;
+      position: relative;
+      top: 3.546099vw;
+      left: 0.838169vw; }
+      .awardBG .getRewarded_step1 .awardImage img {
+        width: 60%; }
+    .awardBG .getRewarded_step1 .awardName {
+      width: 23.210832vw;
+      height: 5.931657vw;
+      line-height: 5.931657vw;
+      position: relative;
+      top: 12.37911vw;
+      left: 0.902643vw; }
+      .awardBG .getRewarded_step1 .awardName img {
+        width: 80%; }
+    .awardBG .getRewarded_step1 .nextBtn {
+      width: 14.055448vw;
+      height: 3.932946vw;
+      top: 19.987vw;
+      left: 0.902643vw; }
+  .awardBG .getRewarded_step2 {
+    margin-top: 21vw;
+    width: 62.798vw;
+    height: 39.716vw;
+    padding: 33px; }
+    .awardBG .getRewarded_step2 .btn_X {
+      width: 3.0947vw;
+      height: 3.0947vw; }
+    .awardBG .getRewarded_step2 .words {
+      width: 42vw;
+      height: 2.901354vw;
+      margin-top: 3.4vw; }
+    .awardBG .getRewarded_step2 form {
+      width: 41.650548vw;
+      margin-top: 1.611863vw;
+      font-size: 1.611863vw; }
+      .awardBG .getRewarded_step2 form span {
+        letter-spacing: 0.70922vw; }
+      .awardBG .getRewarded_step2 form div {
+        margin-top: 0.967118vw; }
+      .awardBG .getRewarded_step2 form input,
+      .awardBG .getRewarded_step2 form select {
+        width: 42.94vw;
+        height: 2.321vw;
+        line-height: 2.321vw; }
+      .awardBG .getRewarded_step2 form input {
+        padding-left: 1.289491vw; }
+      .awardBG .getRewarded_step2 form select {
+        padding-right: 2.578981vw; }
+        .awardBG .getRewarded_step2 form select option {
+          margin: 2.578981vw; }
+      .awardBG .getRewarded_step2 form .name {
+        display: inline-block;
+        margin-right: 1.805vw; }
+        .awardBG .getRewarded_step2 form .name input {
+          width: 17.15vw; }
+      .awardBG .getRewarded_step2 form .sex {
+        display: inline-block;
+        vertical-align: top; }
+        .awardBG .getRewarded_step2 form .sex select {
+          width: 9.7356vw;
+          height: 2.3855vw;
+          line-height: 2.3855vw; }
+      .awardBG .getRewarded_step2 form .birthday select {
+        width: 9.7356vw; }
+      .awardBG .getRewarded_step2 form .phone input {
+        width: 28.949vw; }
+      .awardBG .getRewarded_step2 form .phone .ic {
+        width: 6.64vw;
+        margin-right: 0.51579vw; }
+      .awardBG .getRewarded_step2 form .address select {
+        margin-right: 0.51579vw;
+        width: 11.66989vw; }
+      .awardBG .getRewarded_step2 form .address #country {
+        width: 6.64087vw; }
+      .awardBG .getRewarded_step2 form .address #area {
+        margin-right: 0px; }
+      .awardBG .getRewarded_step2 form .address input {
+        width: 31.91489vw;
+        margin-left: 9.735654vw;
+        margin-top: 0.70922vw; }
+      .awardBG .getRewarded_step2 form .email span {
+        letter-spacing: normal;
+        margin-right: 0.6447vw; }
+      .awardBG .getRewarded_step2 form .email input {
+        width: 35.71889vw; }
+    .awardBG .getRewarded_step2 .btn2 {
+      width: 14.055vw;
+      height: 3.9329vw;
+      margin-top: 1.611863vw; }
+  .awardBG .currentlyLoot {
+    margin-top: 26.112vw;
+    width: 62.0245vw;
+    height: 22.566vw;
+    padding: 2.2566vw 2.063185vw; }
+    .awardBG .currentlyLoot .btn_X {
+      width: 3.0947vw;
+      height: 3.0947vw; }
+    .awardBG .currentlyLoot .scrollBar {
+      width: 0.580271vw;
+      height: 10.3804vw;
+      margin-top: 5.738vw; }
+      .awardBG .currentlyLoot .scrollBar img {
+        margin-left: -1.353965vw; }
+    .awardBG .currentlyLoot .own {
+      width: 46.22824vw;
+      height: 14.764668vw;
+      margin-top: 1.482914vw; }
+      .awardBG .currentlyLoot .own .visible {
+        height: 10.8317vw;
+        width: 49.065vw;
+        top: 3.9329vw; }
+        .awardBG .currentlyLoot .own .visible table {
+          font-size: 1.547389vw;
+          border-spacing: 0px 0.70922vw; }
+          .awardBG .currentlyLoot .own .visible table tr {
+            height: 3.546099vw; }
+          .awardBG .currentlyLoot .own .visible table .awardName {
+            padding-left: 1.41844vw; }
+          .awardBG .currentlyLoot .own .visible table .num {
+            width: 19.6%;
+            font-size: 1.289491vw; }
+            .awardBG .currentlyLoot .own .visible table .num .count {
+              font-size: 1.676338vw; }
+    .awardBG .currentlyLoot .empty {
+      width: 29.980658vw;
+      height: 1.482914vw;
+      margin-top: 8.059317vw; }
+
+  #scrollbar1 {
+    margin: 20px auto 10px; }
+    #scrollbar1 .viewport {
+      height: 11vw;
+      width: 46.22824vw; }
+    #scrollbar1 .scrollbar {
+      right: -56px;
+      top: 4.5vw;
+      width: 38px; }
+    #scrollbar1 .track {
+      width: 13px;
+      padding: 0 1px; }
+    #scrollbar1 .thumb {
+      width: 43px;
+      height: 25px;
+      top: 0;
+      left: -5px; } }
+@media screen and (max-width: 1366px) {
+  #main .top {
+    padding-top: 4.099561vw; }
+    #main .top .logo {
+      width: 12.445095vw;
+      height: 4.026354vw; }
+
+  .atentionPage .pop {
+    margin-top: 16vw; } }
+@media screen and (max-width: 1024px) {
+  .footer .bg-white {
+    height: 5.5vw;
+    line-height: 5.5vw; }
+
+  .atentionPage .pop {
+    margin-top: 16vw; }
+
+  .awardBG .getRewarded_step2 form select {
+    background-size: 2.5vw; } }
+@media screen and (max-width: 1023px), screen and (device-width: 1024px) and (device-height: 1366px) {
+  body {
+    background-size: 100% 100%;
+    height: 100%; }
+
+  .footer {
+    display: none;
+    position: absolute;
+    bottom: 0; }
+    .footer .bg-white {
+      height: 11.328125vw;
+      line-height: 11.328125vw; }
+      .footer .bg-white .content {
+        text-align: center;
+        font-size: 2vw; }
+        .footer .bg-white .content .right {
+          display: none; }
+        .footer .bg-white .content .left {
+          margin-left: 0vw; }
+
+  .footer-forMobilePage1 {
+    display: block;
+    position: relative;
+    bottom: 0;
+    width: 100%; }
+    .footer-forMobilePage1 .bg {
+      height: 16.8vw;
+      background: url("../image/mobile/lotto/mo_footer_page1.png") no-repeat;
+      background-size: 100%;
+      width: 100%; }
+      .footer-forMobilePage1 .bg .btn-group {
+        width: 56vw;
+        margin: 0 auto;
+        display: block;
+        top: 1vw; }
+        .footer-forMobilePage1 .bg .btn-group .descriptionBtn-mobile {
+          background: url("../image/mobile/mo_footer_Button_event.png") no-repeat;
+          background-size: 100%; }
+        .footer-forMobilePage1 .bg .btn-group .activepriceBtn-mobile {
+          background: url("../image/mobile/mo_footer_Button_Prize.png") no-repeat;
+          background-size: 100%;
+          float: right; }
+        .footer-forMobilePage1 .bg .btn-group .descriptionBtn-mobile,
+        .footer-forMobilePage1 .bg .btn-group .activepriceBtn-mobile {
+          width: 25vw;
+          height: 8.05vw;
+          display: inline-block;
+          vertical-align: top; }
+      .footer-forMobilePage1 .bg .content {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        font-size: 2vw;
+        color: rgba(255, 255, 255, 0.7);
+        bottom: 2vw; }
+
+  #main .top {
+    margin: 0 auto;
+    padding-top: 5.729167vw;
+    width: 100%; }
+    #main .top .logo {
+      display: inline-block;
+      background: url("../image/mobile/mo_Vidol_logo.png") no-repeat;
+      background-size: 100%;
+      width: 18vw;
+      height: 6.6vw;
+      margin-left: 5vw; }
+    #main .top .share {
+      margin: 0px;
+      display: inline-block;
+      margin-right: 4vw;
+      z-index: 2; }
+      #main .top .share #vidolIG_link,
+      #main .top .share #vidol-link {
+        display: none; }
+      #main .top .share #FB_share {
+        background: url("../image/mobile/mo_FB_2x.png") no-repeat;
+        background-size: 100%;
+        width: 7.3vw;
+        height: 7.3vw;
+        margin-right: 2.5vw; }
+      #main .top .share #line_share {
+        background: url("../image/mobile/mo_Line_2x.png") no-repeat;
+        background-size: 100%;
+        width: 7.3vw;
+        height: 7.3vw;
+        margin-right: 0px; }
+  #main .status {
+    float: left;
+    left: 18vw;
+    font-size: 2.5vw;
+    top: 3.8vw; }
+    #main .status .clounmName {
+      display: none; }
+    #main .status div {
+      display: inline-block;
+      vertical-align: top; }
+    #main .status .forMobile {
+      display: inline-block; }
+  #main .mainPic {
+    margin: 0 auto;
+    background: url(../image/mobile/lotto/mo_main.png) no-repeat;
+    background-size: 100%;
+    background-position-y: -2vw;
+    width: 100%;
+    position: relative; }
+    #main .mainPic .descriptionBtn,
+    #main .mainPic .activepriceBtn,
+    #main .mainPic .main_box,
+    #main .mainPic .activeprice {
+      display: none; }
+    #main .mainPic .turntable {
+      background-image: url("../image/mobile/lotto/mo_Turntable_01.png");
+      width: 65vw;
+      height: 75vw;
+      margin: 0 auto;
+      margin-top: 9vw; }
+      #main .mainPic .turntable .prizeTray {
+        background-image: url(../image/mobile/lotto/mo_Turntable_02.png);
+        width: 44.5vw;
+        height: 44.5vw;
+        margin-left: 10.45vw;
+        margin-top: 9.55vw; }
+      #main .mainPic .turntable .outerFrame {
+        background-image: url("../image/mobile/lotto/mo_Turntable_03.png");
+        width: 56.5vw;
+        height: 56.5vw;
+        margin-left: 4.46vw;
+        margin-top: 3.7vw; }
+        #main .mainPic .turntable .outerFrame .point {
+          background-image: url("../image/mobile/lotto/mo_Turntable_04.png");
+          width: 5vw;
+          height: 8.51485149vw; }
+        #main .mainPic .turntable .outerFrame .priceBtn {
+          width: 19vw;
+          height: 19vw;
+          margin-top: 8.9vw; }
+        #main .mainPic .turntable .outerFrame .unclickMask {
+          width: 19vw;
+          height: 19vw;
+          top: -19.5vw; }
+        #main .mainPic .turntable .outerFrame .lootBtn {
+          background-image: url("../image/mobile/lotto/mo_Turntable_Prize_Button.png");
+          width: 21vw;
+          height: 5.32758621vw;
+          margin-top: 2vw; }
+  #main .description-forMobile,
+  #main .activeprice-forMobile {
+    display: none;
+    background: url(../image/mobile/activeDes/mo_event_BK.png) no-repeat;
+    background-size: 100%;
+    width: 96%;
+    height: 139vw;
+    margin: 0 auto;
+    margin-top: 8.4vw; }
+    #main .description-forMobile .backIndex,
+    #main .activeprice-forMobile .backIndex {
+      background: url(../image/mobile/activeDes/mo_event_backIndexBtn.png) no-repeat;
+      background-size: 100%;
+      width: 32vw;
+      margin-left: 5.6vw;
+      height: 18vw;
+      position: relative;
+      top: 2vw; }
+    #main .description-forMobile .des,
+    #main .activeprice-forMobile .des {
+      margin: 0 auto;
+      background: url(../image/mobile/activeDes/mo_event_stepwords.png) no-repeat;
+      background-size: 100%;
+      width: 64vw;
+      height: 89vw; }
+    #main .description-forMobile .atentionBtn,
+    #main .activeprice-forMobile .atentionBtn {
+      background: url(../image/mobile/activeDes/mo_event_atention.png) no-repeat;
+      background-size: 100%;
+      width: 35vw;
+      height: 4vw;
+      margin-left: 16vw;
+      margin-top: 5vw; }
+    #main .description-forMobile .atentionBtn:hover,
+    #main .activeprice-forMobile .atentionBtn:hover {
+      background-image: url("../image/mobile/activeDes/mo_event_atentionY.png"); }
+  #main .activeprice-forMobile .prize {
+    margin: 0 auto;
+    background: url("../image/mobile/activeDes/mo_event_prize.png") no-repeat;
+    background-size: 100%;
+    width: 73.5vw;
+    height: 106vw; }
+  #main .activeprice-forMobile .atentionBtn {
+    display: none; }
+  #main .becomeVIP {
+    background-image: url("../image/mobile/final/mo_final_main.png"); }
+  #main .useOverVIP {
+    background-image: url("../image/mobile/final/mo_final_VIPmain.png"); }
+  #main .becomeVIP,
+  #main .useOverVIP {
+    width: 100vw;
+    height: 109.086vw;
+    padding-top: 33.63vh;
+    margin-top: -7.1vh;
+    margin-bottom: 3.9vw; }
+    #main .becomeVIP .words,
+    #main .useOverVIP .words {
+      width: 60vw;
+      height: 16vw;
+      margin-top: 7vh; }
+    #main .becomeVIP .continue,
+    #main .becomeVIP .seeDrama,
+    #main .useOverVIP .continue,
+    #main .useOverVIP .seeDrama {
+      width: 23vw;
+      height: 6.8vw;
+      margin-top: 26.5vw; }
+    #main .becomeVIP .continue,
+    #main .useOverVIP .continue {
+      margin-right: 7vw; }
+  #main .organizer {
+    display: none;
+    background: url(../image/mobile/unit/mo_W.png) no-repeat;
+    width: 83%;
+    height: 3.3vw;
+    margin: 0vw auto;
+    margin-left: 10vw;
+    background-size: 46%;
+    background-position-y: center;
+    position: absolute;
+    bottom: 12vh; }
+    #main .organizer .vidol {
+      background: url(../image/mobile/unit/mo_Vidol.png) no-repeat;
+      background-size: 100%;
+      width: 10vw;
+      height: 4vw;
+      margin-left: 13vw; }
+    #main .organizer .setn {
+      background: url(../image/mobile/unit/mo_setn.png) no-repeat;
+      background-size: 100%;
+      width: 22vw;
+      height: 4vw;
+      margin-left: 17vw;
+      margin-top: 0.257898vw; }
+    #main .organizer .electGo {
+      background: url(../image/mobile/unit/mo_electGo.png) no-repeat;
+      background-size: 100%;
+      width: 12vw;
+      height: 4vw;
+      margin-left: 1.5vw; }
+
+  .notGetward {
+    top: 46vh;
+    left: calc((100% - 69vw)/2);
+    background-image: url(../image/mobile/lotto/mo_pop1_no_prize.png);
+    width: 69vw;
+    height: 24.5vw; }
+    .notGetward img {
+      position: absolute;
+      right: 3vw;
+      top: 3vw;
+      width: 5vw;
+      height: 5vw; }
+
+  .awardBG .getRewarded_step1 {
+    background-image: url("../image/mobile/lotto/mo_pop2_red_envelope.png");
+    width: 65vw;
+    height: 85vw;
+    margin-top: 16.7vh; }
+    .awardBG .getRewarded_step1 .awardImage {
+      width: 37vw;
+      height: 31vw;
+      line-height: 31vw;
+      left: 0vw;
+      top: 4.5vw; }
+      .awardBG .getRewarded_step1 .awardImage img {
+        width: 60%; }
+    .awardBG .getRewarded_step1 .awardName {
+      width: 42vw;
+      height: 12vw;
+      line-height: 12vw;
+      top: 18vw;
+      left: 0vw; }
+      .awardBG .getRewarded_step1 .awardName img {
+        width: 80%; }
+    .awardBG .getRewarded_step1 .nextBtn {
+      width: 28vw;
+      height: 8vw;
+      top: 30vw;
+      left: 0vw; }
+  .awardBG .getRewarded_step2 {
+    margin: 0 auto;
+    margin-top: 30vw;
+    background-image: url(../image/mobile/lotto/mo_pop3_BK.png);
+    width: 70vw;
+    height: 88vw;
+    padding: 4vw 4.5vw; }
+    .awardBG .getRewarded_step2 .btn_X {
+      width: 5vw;
+      height: 5vw; }
+    .awardBG .getRewarded_step2 .words {
+      display: none; }
+    .awardBG .getRewarded_step2 form {
+      width: 61vw;
+      margin-top: 20.6vw;
+      font-size: 2.9vw; }
+      .awardBG .getRewarded_step2 form span {
+        letter-spacing: 0.70922vw; }
+      .awardBG .getRewarded_step2 form div {
+        margin-top: 2.5vw; }
+      .awardBG .getRewarded_step2 form input,
+      .awardBG .getRewarded_step2 form select {
+        width: 45vw;
+        height: 4.5vw;
+        line-height: 4.5vw; }
+      .awardBG .getRewarded_step2 form input {
+        padding-left: 1.289491vw; }
+      .awardBG .getRewarded_step2 form select {
+        padding-right: 3vw;
+        background-size: 3vw;
+        background-position-x: right; }
+        .awardBG .getRewarded_step2 form select option {
+          margin: 3vw; }
+      .awardBG .getRewarded_step2 form .name {
+        display: inline-block;
+        margin-right: 0px; }
+        .awardBG .getRewarded_step2 form .name input {
+          width: 31vw; }
+      .awardBG .getRewarded_step2 form .sex {
+        display: inline-block;
+        vertical-align: top; }
+        .awardBG .getRewarded_step2 form .sex select {
+          width: 9.1vw;
+          height: 4.5vw;
+          line-height: 4.5vw; }
+      .awardBG .getRewarded_step2 form .birthday select {
+        width: 12.25vw; }
+      .awardBG .getRewarded_step2 form .phone input {
+        width: 40.6vw; }
+      .awardBG .getRewarded_step2 form .phone .ic {
+        width: 11vw;
+        margin-right: 0.51579vw; }
+      .awardBG .getRewarded_step2 form .address select {
+        margin-right: 0.51579vw;
+        width: 15.55vw; }
+      .awardBG .getRewarded_step2 form .address #country {
+        width: 11vw; }
+      .awardBG .getRewarded_step2 form .address #area {
+        margin-right: 0px; }
+      .awardBG .getRewarded_step2 form .address input {
+        width: 45.7vw;
+        margin-left: 15.25vw;
+        margin-top: 1.5vw; }
+      .awardBG .getRewarded_step2 form .email span {
+        letter-spacing: normal;
+        margin-right: 0.6447vw; }
+      .awardBG .getRewarded_step2 form .email input {
+        width: 49vw; }
+    .awardBG .getRewarded_step2 .btn2 {
+      width: 28vw;
+      height: 8vw;
+      margin-top: 7vw; }
+  .awardBG .currentlyLoot {
+    background-image: url("../image/mobile/lotto/mo_pop5_prizeBK.png");
+    margin-top: 39vw;
+    width: 70vw;
+    height: 69vw;
+    padding: 3vw 2.5vw; }
+    .awardBG .currentlyLoot .btn_X {
+      width: 5vw;
+      height: 5vw; }
+    .awardBG .currentlyLoot .scrollBar {
+      display: none;
+      background: url(../image/pop5_line.png) no-repeat;
+      background-size: 100%;
+      width: 9px;
+      height: 161px;
+      float: right;
+      margin-top: 89px; }
+      .awardBG .currentlyLoot .scrollBar img {
+        margin-left: -21px; }
+    .awardBG .currentlyLoot .own {
+      background-image: url("../image/mobile/lotto/mo_pop5_prize.png");
+      width: 100%;
+      height: 36vw;
+      margin-top: 14vw; }
+      .awardBG .currentlyLoot .own .visible {
+        height: 168px;
+        width: 761px;
+        top: 61px; }
+        .awardBG .currentlyLoot .own .visible table {
+          font-size: 24px;
+          border-spacing: 0px 11px; }
+          .awardBG .currentlyLoot .own .visible table tr {
+            height: 55px; }
+          .awardBG .currentlyLoot .own .visible table .awardName {
+            padding-left: 2vw;
+            font-size: 2.9vw; }
+          .awardBG .currentlyLoot .own .visible table .num {
+            width: 19.6%;
+            font-size: 20px; }
+            .awardBG .currentlyLoot .own .visible table .num .count {
+              font-size: 26px; }
+    .awardBG .currentlyLoot .empty {
+      background-image: url("../image/mobile/lotto/mo_pop5_Noprize.png");
+      background-size: 100%;
+      width: 94%;
+      height: 23px;
+      margin-top: 125px; }
+
+  .atentionPage .pop {
+    margin-top: 16vw; }
+
+  #scrollbar1 {
+    width: 94%;
+    margin: 20px auto 10px;
+    position: relative; }
+    #scrollbar1 .viewport {
+      height: 31vw;
+      width: 100%;
+      top: 4.5vw; }
+    #scrollbar1 .overview {
+      list-style: none;
+      position: absolute;
+      left: 0;
+      top: 0;
+      margin: 0; }
+    #scrollbar1 .scrollbar {
+      display: none;
+      background: transparent url("../image/pop5_line.png") no-repeat 0 0;
+      position: absolute;
+      background-position: 0 0;
+      right: -56px;
+      top: 62px;
+      width: 38px;
+      background-position-x: center;
+      background-position-y: bottom; }
+    #scrollbar1 .track {
+      height: 100%;
+      width: 13px;
+      position: relative;
+      padding: 0 1px; }
+    #scrollbar1 .thumb {
+      background: transparent url("../image/pop5_gold.png") no-repeat 50% 100%;
+      width: 43px;
+      height: 25px;
+      cursor: pointer;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      left: -5px; }
+      #scrollbar1 .thumb .end {
+        display: none;
+        background: transparent url("../image/bg-scrollbar-thumb-y.png") no-repeat 50% 0;
+        overflow: hidden;
+        width: 43px;
+        height: 25px; }
+    #scrollbar1 .disable {
+      display: none; } }
+@media screen and (max-width: 1023px) and (device-width: 1024px) and (device-height: 1366px), screen and (device-width: 1024px) and (device-height: 1366px) and (device-width: 1024px) and (device-height: 1366px), screen and (max-width: 1023px) and (device-width: 768px) and (device-height: 1024px), screen and (device-width: 1024px) and (device-height: 1366px) and (device-width: 768px) and (device-height: 1024px) {
+  .atentionPage .pop {
+    margin-top: 31vw; } }
+@media screen and (max-width: 1023px) and (max-width: 500px), screen and (device-width: 1024px) and (device-height: 1366px) and (max-width: 500px) {
+  #main .top .share {
+    right: 4vw;
+    bottom: -7vw; } }
+  @media screen and (max-width: 1023px) and (max-width: 500px) and (max-width: 375px), screen and (device-width: 1024px) and (device-height: 1366px) and (max-width: 500px) and (max-width: 375px) {
+    #main .top .share {
+      right: 2vw;
+      bottom: -6vw; }
+      #main .top .share #FB_share {
+        margin-right: 1.2vw; } }
+  @media screen and (max-width: 1023px) and (max-width: 500px) and (max-width: 320px), screen and (device-width: 1024px) and (device-height: 1366px) and (max-width: 500px) and (max-width: 320px) {
+    #main .top .share {
+      right: 6vw;
+      top: 5vw;
+      bottom: unset; } }
+@media screen and (max-width: 1023px) and (max-width: 500px), screen and (device-width: 1024px) and (device-height: 1366px) and (max-width: 500px) {
+    #main .top .share #FB_share,
+    #main .top .share #line_share {
+      width: 7.3vw;
+      height: 7.3vw; }
+  #main .status {
+    top: 2.5vw; }
+  #main .mainPic {
+    height: 83vh; }
+    #main .mainPic .turntable {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      height: 114.5vw; }
+      #main .mainPic .turntable .prizeTray {
+        width: 68vw;
+        height: 68vw;
+        margin-left: 16.3vw;
+        margin-top: 15vw; }
+      #main .mainPic .turntable .outerFrame {
+        width: 88vw;
+        height: 88vw;
+        margin-left: 6vw;
+        margin-top: 5.6vw; }
+        #main .mainPic .turntable .outerFrame .point {
+          width: 8.5vw;
+          height: 14vw; }
+        #main .mainPic .turntable .outerFrame .priceBtn {
+          width: 28vw;
+          height: 28vw;
+          margin-top: 14.5vw; }
+        #main .mainPic .turntable .outerFrame .unclickMask {
+          width: 28vw;
+          height: 28vw;
+          top: -28.5vw; }
+        #main .mainPic .turntable .outerFrame .lootBtn {
+          width: 33vw;
+          height: 8vw;
+          margin-top: 4.7vw; }
+  #main .description-forMobile,
+  #main .activeprice-forMobile {
+    height: 139.5vw;
+    margin-top: 8vw; }
+    #main .description-forMobile .backIndex,
+    #main .activeprice-forMobile .backIndex {
+      width: 40vw;
+      height: 19vw; }
+    #main .description-forMobile .des,
+    #main .activeprice-forMobile .des {
+      width: 67vw;
+      height: 89vw; }
+    #main .description-forMobile .prize,
+    #main .activeprice-forMobile .prize {
+      width: 74vw;
+      height: 106vw; }
+    #main .description-forMobile .atentionBtn,
+    #main .activeprice-forMobile .atentionBtn {
+      width: 38vw;
+      height: 4vw;
+      margin-left: 17vw;
+      margin-top: 8vw; }
+  #main .becomeVIP,
+  #main .useOverVIP {
+    width: 100vw;
+    height: 110vw;
+    padding-top: 23.63vh;
+    margin-top: 0px; }
+    #main .becomeVIP .words,
+    #main .useOverVIP .words {
+      width: 70vw;
+      height: 18vw;
+      margin-top: 7vh; }
+    #main .becomeVIP .continue,
+    #main .becomeVIP .seeDrama,
+    #main .useOverVIP .continue,
+    #main .useOverVIP .seeDrama {
+      width: 38vw;
+      height: 11vw;
+      margin-top: 28vw; }
+    #main .becomeVIP .continue,
+    #main .useOverVIP .continue {
+      margin-right: 5vw; }
+  #main .organizer {
+    width: 88.8%;
+    height: 5vw;
+    margin: 0vw auto;
+    background-size: 55%;
+    bottom: 14vh;
+    margin-left: 6.1%; }
+    #main .organizer .vidol {
+      width: 13vw;
+      height: 5vw;
+      margin-left: 15.3vw; }
+    #main .organizer .setn {
+      width: 23vw;
+      height: 5vw;
+      margin-left: 21vw;
+      margin-top: 1vw; }
+    #main .organizer .electGo {
+      width: 13vw;
+      height: 5vw;
+      margin-left: 1vw;
+      margin-top: 0.5vw; }
+
+  .notGetward {
+    top: 42.5vh;
+    left: calc((100% - 95vw)/2);
+    width: 95vw;
+    height: 34vw; }
+    .notGetward img {
+      position: absolute;
+      right: 3vw;
+      top: 3vw;
+      width: 5vw;
+      height: 5vw; }
+
+  .awardBG .getRewarded_step1 {
+    width: 100%;
+    height: 131vw;
+    margin-top: 12vh; }
+    .awardBG .getRewarded_step1 .awardImage {
+      width: 60vw;
+      height: 45vw;
+      line-height: 43vw;
+      top: 9.5vw; }
+      .awardBG .getRewarded_step1 .awardImage img {
+        width: 68%; }
+    .awardBG .getRewarded_step1 .awardName {
+      width: 64vw;
+      height: 15vw;
+      line-height: 15vw;
+      top: 32vw;
+      left: 0.5vw; }
+      .awardBG .getRewarded_step1 .awardName img {
+        width: 80%; }
+    .awardBG .getRewarded_step1 .nextBtn {
+      width: 37vw;
+      height: 11vw;
+      top: 52.5vw;
+      left: 0vw; }
+  .awardBG .getRewarded_step2 {
+    width: 96vw;
+    height: 120vw;
+    padding: 5vw 5.5vw;
+    margin-top: 30vw; }
+    .awardBG .getRewarded_step2 .btn_X {
+      width: 8vw;
+      height: 8vw; }
+    .awardBG .getRewarded_step2 form {
+      width: 82.8vw;
+      font-size: 3.9vw;
+      margin-top: 27.6vw; }
+      .awardBG .getRewarded_step2 form span {
+        margin-right: 0.8vw; }
+      .awardBG .getRewarded_step2 form div {
+        margin-top: 3.5vw; }
+      .awardBG .getRewarded_step2 form input,
+      .awardBG .getRewarded_step2 form select {
+        height: 6.5vw; }
+      .awardBG .getRewarded_step2 form select {
+        background-size: 5vw; }
+      .awardBG .getRewarded_step2 form .name input {
+        width: 41vw; }
+      .awardBG .getRewarded_step2 form .sex select {
+        width: 13.23vw;
+        height: 6.5vw; }
+      .awardBG .getRewarded_step2 form .birthday select {
+        width: 17.25vw; }
+      .awardBG .getRewarded_step2 form .phone input {
+        width: 53vw; }
+      .awardBG .getRewarded_step2 form .phone .ic {
+        width: 16vw; }
+      .awardBG .getRewarded_step2 form .address select {
+        width: 21.4vw; }
+      .awardBG .getRewarded_step2 form .address #country {
+        width: 15vw; }
+      .awardBG .getRewarded_step2 form .address input {
+        margin-top: 2.5vw;
+        margin-left: 20.8vw;
+        width: 62vw; }
+      .awardBG .getRewarded_step2 form .email span {
+        margin-right: 1.5vw; }
+      .awardBG .getRewarded_step2 form .email input {
+        width: 67vw; }
+    .awardBG .getRewarded_step2 .btn2 {
+      width: 38vw;
+      height: 11.5vw;
+      margin-top: 8vw; }
+  .awardBG .currentlyLoot {
+    margin-top: 39vw;
+    width: 96vw;
+    height: 94vw;
+    padding: 5vw 5.5vw; }
+    .awardBG .currentlyLoot .btn_X {
+      width: 8vw;
+      height: 8vw; }
+    .awardBG .currentlyLoot .scrollBar {
+      display: none;
+      background: url(../image/pop5_line.png) no-repeat;
+      background-size: 100%;
+      width: 9px;
+      height: 161px;
+      float: right;
+      margin-top: 89px; }
+      .awardBG .currentlyLoot .scrollBar img {
+        margin-left: -21px; }
+    .awardBG .currentlyLoot .own {
+      width: 100%;
+      height: 36vw;
+      margin-top: 20vw; }
+      .awardBG .currentlyLoot .own .visible {
+        width: 100%;
+        top: 5.5vw; }
+        .awardBG .currentlyLoot .own .visible table {
+          font-size: 4vw;
+          border-spacing: 0px 3vw; }
+          .awardBG .currentlyLoot .own .visible table tr {
+            height: 11.5vw; }
+          .awardBG .currentlyLoot .own .visible table .awardName {
+            padding-left: 2vw;
+            font-size: 4vw; }
+          .awardBG .currentlyLoot .own .visible table .num {
+            width: 19.6%;
+            font-size: 3vw; }
+            .awardBG .currentlyLoot .own .visible table .num .count {
+              font-size: 6vw; }
+    .awardBG .currentlyLoot .empty {
+      width: 94%;
+      height: 23px;
+      margin-top: 30vw; }
+
+  .atentionPage .pop {
+    margin-top: 29vw;
+    width: 90%;
+    height: 80%; }
+    .atentionPage .pop .content {
+      width: 80%;
+      height: 100%;
+      margin: 0 auto;
+      font-size: 13px;
+      padding-top: 4vw; }
+    .atentionPage .pop img {
+      width: 5vw;
+      height: 5vw;
+      margin-top: 2vw;
+      margin-right: 2vw; }
+
+  #scrollbar1 .viewport {
+    top: 5.5vw;
+    height: 43.5vw; }
+  #scrollbar1 .overview {
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0; }
+  #scrollbar1 .scrollbar {
+    display: none;
+    background: transparent url("../image/pop5_line.png") no-repeat 0 0;
+    position: absolute;
+    background-position: 0 0;
+    right: -56px;
+    top: 62px;
+    width: 38px;
+    background-position-x: center;
+    background-position-y: bottom; }
+  #scrollbar1 .track {
+    height: 100%;
+    width: 13px;
+    position: relative;
+    padding: 0 1px; }
+  #scrollbar1 .thumb {
+    background: transparent url("../image/pop5_gold.png") no-repeat 50% 100%;
+    width: 43px;
+    height: 25px;
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: -5px; }
+    #scrollbar1 .thumb .end {
+      display: none;
+      background: transparent url("../image/bg-scrollbar-thumb-y.png") no-repeat 50% 0;
+      overflow: hidden;
+      width: 43px;
+      height: 25px; }
+  #scrollbar1 .disable {
+    display: none; }
+
+  .footer .bg-white {
+    top: 0px;
+    height: 17vw;
+    line-height: 17vw; }
+    .footer .bg-white .content {
+      font-size: 3vw; }
+
+  .footer-forMobilePage1 .bg .btn-group {
+    width: 78vw; }
+    .footer-forMobilePage1 .bg .btn-group .descriptionBtn-mobile,
+    .footer-forMobilePage1 .bg .btn-group .activepriceBtn-mobile {
+      width: 34vw;
+      height: 10.1vw; }
+  .footer-forMobilePage1 .bg .content {
+    font-size: 3vw;
+    bottom: 0.5vw; } }
+#loginBg {
+  display: none;
+  background-color: #310c0c;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  _position: absolute;
+  top: 0;
+  z-index: 1000;
+  opacity: 0.9;
+  z-index: 0;
+  width: 320px; }
+
+.ui-widget.ui-widget-content {
+  background-color: rgba(0, 0, 0, 0.82);
+  background-size: 190%;
+  background-position: 60% 33%; }
+
+.ui-draggable .ui-dialog-titlebar {
+  border: 0;
+  background: none;
+  background-size: 27%;
+  padding: 15px 0;
+  background: none;
+  padding: 0px; }
+
+.ui-dialog .ui-dialog-titlebar-close {
+  background-color: #000;
+  border-width: 0px;
+  margin-right: 10px; }
+
+.ui-dialog .ui-dialog-content {
+  padding: 30px 30px 50px; }
+
+.ui-button .ui-icon,
+.ui-button .ui-icon:hover {
+  width: 50px;
+  height: 50px;
+  background: url(../image/close.png) no-repeat;
+  background-size: 100%;
+  top: 0;
+  left: 0; }
+
+.fbShare {
+  width: 340px;
+  margin: 0 auto; }
+
+#login input {
+  width: 100%;
+  height: 40px;
+  background: none;
+  border: 0;
+  border-bottom: solid 2px;
+  border-bottom-color: rgba(255, 255, 255, 0.33);
+  margin-top: 15px;
+  color: #fff; }
+#login .login_vidol {
+  background-color: #f4f224;
+  color: #000;
+  margin-top: 25px; }
+#login .line {
+  width: 100%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.33);
+  position: relative;
+  margin-top: 95px; }
+#login .or {
+  color: #c1c1c1;
+  width: 37px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: -12px; }
+#login .text {
+  text-align: center !important; }
+  #login .text span a {
+    color: #fff !important; }
+
+#login input {
+  width: 100%;
+  height: 40px; }
+
+.login_vidol {
+  background-color: #c32435;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  float: left;
+  -webkit-appearance: none;
+  border: none;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.1em;
+  cursor: pointer; }
+
+.or {
+  width: 100%;
+  text-align: center; }
+
+.login_facebook {
+  background-color: #3b5998;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  float: left;
+  -webkit-appearance: none;
+  border: none;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.1em;
+  cursor: pointer; }
+
+.noSelect {
+  user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none; }
+
+.myMouse {
+  cursor: pointer; }
+
+/*# sourceMappingURL=index.css.map */

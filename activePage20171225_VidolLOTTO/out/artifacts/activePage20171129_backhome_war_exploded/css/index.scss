@@ -1,0 +1,2329 @@
+html{
+  height: 100%;
+}
+body{
+  font-family: "微軟正黑體","Microsoft JhengHei","DFHei",Arial;
+  overflow-x: hidden;
+  background-color: #1b1110;
+}
+
+#main{
+  z-index: 0;
+  max-width: 1551px;
+  margin: 0 auto;
+  width: 100%;
+  background: url("../image/background.png") no-repeat;
+  background-size: 100%;
+  .top{
+    margin: 0 auto;
+    padding-top: 56px;
+    width: 82.27%;//1276/1551
+    position: relative;
+    z-index: 5;
+    .logo{
+      display: inline-block;
+      background: url("../image/Vidol_logo_170x55.png") no-repeat;
+      background-size: 100%;
+      width: 170px;
+      height: 55px;
+    }
+    .share{
+      float: right;
+      margin-top: 25px;
+      div{
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+      }
+      div:last-child{
+        margin-right: 0px;
+      }
+      #FB_share{
+        background: url("../image/FB.png") no-repeat;
+        background-size: 100%;
+      }
+      #vidolIG_link{
+        background: url("../image/instagram.png") no-repeat;
+        background-size: 100%;
+      }
+      #line_share{
+        background: url("../image/Line.png") no-repeat;
+        background-size: 100%;
+      }
+      #vidol-link{
+        background: url("../image/V_LOGO.png") no-repeat;
+        background-size: 100%;
+      }
+    }
+  }
+  .status{
+    display: none;
+    position: relative;
+    z-index: 5;
+    float: right;
+    text-align: left;
+    letter-spacing: 2px;
+    color: rgb(260, 214, 255);
+    top: 20px;
+    right: 134px;
+    font-size: 20px;
+    .forMobile{
+      display: none;
+    }
+  }
+  .mainPic{
+    display: block;
+    background: url("../image/main.png") no-repeat;
+    background-size: 100%;
+    width: 1250px;
+    margin-left: 122px;
+    padding-top: 320px;
+    margin-top: -77px;
+    .turntable{
+      background: url(../image/Turntable_01.png) no-repeat;
+      background-size:100%;
+      width: 658px;
+      height: 765px;
+      margin-left: 25.55%;
+      .prizeTray{
+        background: url("../image/Turntable_02.png") no-repeat;
+        background-size: 100%;
+        width: 446px;
+        height: 445px;
+        position: absolute;
+        margin-left: 108px;
+        margin-top: 101px;
+      }
+      .outerFrame{
+        background: url("../image/Turntable_03.png") no-repeat;
+        background-size: 100%;
+        width: 582px;
+        height: 581px;
+        position: absolute;
+        margin-left: 42px;
+        margin-top: 32px;
+        .point{
+          background: url("../image/Turntable_04.png") no-repeat;
+          background-size: 100%;
+          width: 57px;
+          height: 94px;
+          margin: 0 auto;
+          margin-top: 14px;
+        }
+        .priceBtn{
+          background: url("../image/Turntable_Button.png") no-repeat;
+          background-size: 100%;
+          width: 196px;
+          height: 196px;
+          margin: 0 auto;
+          margin-top: 87px;
+        }
+        .unclickMask{
+          visibility: hidden;
+          background-color: rgba(0, 62, 255, 0);
+          width: 15vw;
+          height: 196px;
+          margin: 0 auto;
+          position: relative;
+          top: -197px;
+        }
+        .lootBtn{
+          background: url(../image/Button01.png) no-repeat;
+          background-size: 100%;
+          width: 157px;
+          height: 45px;
+          margin: 0 auto;
+        }
+        .lootBtn:hover{
+          background-image: url("../image/Button01Y.png");
+        }
+      }
+    }
+
+    .descriptionBtn{
+      background: url(../image/Button02_event.png) no-repeat;
+      background-size: 100%;
+      width: 165px;
+      height: 63px;
+      position: absolute;
+      margin-left: 478px;
+      margin-top: -30px;
+    }
+    .descriptionBtn:hover{
+      background-image: url("../image/Button02R_event.png");
+    }
+    .activepriceBtn{
+      background: url("../image/Button03_prize.png") no-repeat;
+      background-size: 100%;
+      width: 165px;
+      height: 63px;
+      position: absolute;
+      margin-left: 648px;
+      margin-top: -30px;
+    }
+    .activepriceBtn:hover{
+      background-image: url("../image/Button03R_prize.png");
+    }
+    .main_box{
+      display: block;
+      background:url("../image/main_box.png") no-repeat;
+      background-size: 100%;
+      width: 1091px;
+      height: 451px;
+      margin: 0 auto;
+      margin-top: -29px;
+      .description{
+        display: block;
+        background: url(../image/main_box_words.png) no-repeat;
+        background-size: 100%;
+        width: 56%;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 3.6vw;
+        left: 1.2vw;
+        .atentionBtn{
+          background: url(../image/mobile/activeDes/mo_event_atention.png) no-repeat;
+          background-size: 100%;
+          width: 33%;
+          position: absolute;
+          height: 1vw;
+          top: 320px;
+          right: 0px;
+        }
+        .atentionBtn:hover{
+          background-image: url("../image/mobile/activeDes/mo_event_atentionY.png");
+        }
+      }
+      .activeprice{
+        display: none;
+        background: url(../image/main_box_prize.png) no-repeat;
+        background-size: 100%;
+        width: 61.5%;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 3.35vw;
+        left: 1.4vw;
+      }
+    }
+  }
+  .description-forMobile{
+    display: none;
+  }
+  .becomeVIP{
+    display: none;
+    background: url(../image/pop4_background.png) no-repeat;
+    background-size: 100%;
+    width: 1357px;
+    height: 1025px;
+    margin: 0 auto;
+    padding-top: 320px;
+    margin-top: -116px;
+    text-align: center;
+    .words{
+      background: url("../image/pop4_0words.png") no-repeat;
+      background-size: 100%;
+      width: 669px;
+      height: 171px;
+      margin: 0 auto;
+      margin-top: 105px;
+    }
+    .continue{
+      background:url("../image/pop4_2Button.png") no-repeat;
+      background-size: 100%;
+      width: 232px;
+      height: 75px;
+      display: inline-block;
+      margin-top: 53px;
+      margin-right: 60px;
+    }
+    .continue:hover{
+      background-image: url("../image/pop4_2ButtonY.png");
+    }
+    .seeDrama{
+      background:url("../image/pop4_1Button.png") no-repeat;
+      background-size: 100%;
+      width: 232px;
+      height: 75px;
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 53px;
+    }
+    .seeDrama:hover{
+      background-image: url("../image/pop4_1ButtonY.png");
+    }
+  }
+  .useOverVIP{
+    display: none;
+    background: url("../image/pop4_VIP_background.png") no-repeat;
+    background-size: 100%;
+    width: 1357px;
+    height: 1025px;
+    //margin-left: 7.865893%;//122/1551
+    margin: 0 auto;
+    padding-top: 320px;
+    margin-top: -116px;
+    margin-bottom: -70px;
+    text-align: center;
+    .words{
+      background: url("../image/pop4_VIP_words.png") no-repeat;
+      background-size: 100%;
+      width: 669px;
+      height: 171px;
+      margin: 0 auto;
+      margin-top: 105px;
+    }
+    .seeDrama{
+      background:url("../image/pop4_VIP_Button.png") no-repeat;
+      background-size: 100%;
+      width: 232px;
+      height: 75px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 53px;
+    }
+    .seeDrama:hover{
+      background-image: url("../image/pop4_VIP_ButtonY.png");
+    }
+  }
+  .organizer{
+    width: 45%;
+    height: 25px;
+    margin: 15px auto;
+    background: url(../image/unit/unit_W.png) no-repeat;
+    background-size: 45%;
+    background-position-y: center;
+    background-position-x: 105px;
+    position: relative;
+    bottom: 0px;
+    /// position: absolute;
+    // bottom: 85px;
+    // left: calc((100% - 750px)/2);
+    .vidol{
+      background: url(../image/unit/Vidol.png) no-repeat;
+      background-size: 100%;
+      width: 60px;
+      height: 22px;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 205px;
+    }
+    .setn {
+      background: url(../image/unit/setn.png) no-repeat;
+      background-size: 100%;
+      width: 130px;
+      height: 25px;
+      display: inline-block;
+      margin-left: 169px;
+      vertical-align: top;
+      margin-top: 4px;
+    }
+    .electGo{
+      background: url(../image/unit/electGo.png) no-repeat;
+      background-size: 100%;
+      width: 84px;
+      height: 30px;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 12px;
+    }
+  }
+}
+
+.notGetward{
+  display: none;
+  position: fixed;
+  top: 57vh;
+  left: calc((100% - 601px)/2);
+  z-index: 1;
+  background: url(../image/pop1_no_prize.png) no-repeat;
+  background-size: 100%;
+  width: 601px;
+  height: 182px;
+  img{
+    position: absolute;
+    right: 33px;
+    top: 30px;
+  }
+}
+.awardBG{
+  display: none;
+  background-color: rgba(27, 17, 16, 0.6);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  overflow-y: scroll;
+  .getRewarded_step1{
+    display: none;
+    background: url(../image/pop2_red_envelope.png) no-repeat;
+    background-size: 100%;
+    width: 988px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 15.7vh;//170px;
+    .awardImage{
+      margin: 0 auto;
+      width: 345px;
+      height: 250px;
+      line-height: 250px;
+      position: relative;
+      top: 55px;
+      left: 13px;
+      text-align: center;
+      img{
+        width: 60%;
+      }
+    }
+    .awardName{
+      margin: 0 auto;
+      width: 360px;
+      height: 92px;
+      line-height: 92px;
+      position: relative;
+      top: 192px;
+      left: 14px;
+      text-align: center;
+      img{
+        width: 80%;
+      }
+    }
+    .nextBtn{
+      background: url("../image/pop2_Button.png") no-repeat;
+      background-size: 100%;
+      width: 218px;
+      height: 61px;
+      margin: 0 auto;
+      position: relative;
+      top: 310px;
+      left: 14px;
+    }
+    .nextBtn:hover{
+      background-image: url("../image/pop2_ButtonY.png");
+    }
+  }
+  .getRewarded_step2{
+    display: none;
+    margin: 0 auto;
+    margin-top: 329px;
+    background: url(../image/pop3_background.png) no-repeat;
+    background-size: 100%;
+    width: 974px;
+    height: 616px;
+    padding: 66px 53px;
+    .btn_X{
+      background: url(../image/pop3_X.png) no-repeat;
+      background-size: 100%;
+      width: 48px;
+      height: 48px;
+      float: right;
+    }
+    .words{
+      background: url(../image/pop3_words.png) no-repeat;
+      background-size: 100%;
+      width: 646px;
+      height: 45px;
+      margin: 0 auto;
+      margin-top: 22px;
+    }
+    form{
+      width: 646px;//750-646=104
+      text-align: left;
+      margin: 0 auto;
+      margin-top: 25px;
+      font-size: 25px;
+      color: #d5ae77;
+      span{
+        font-weight: bold;
+        letter-spacing: 11px;
+      }
+      div{
+        margin-top: 15px;
+      }
+      input,
+      select{
+        border: 0;
+        width: 666px;
+        background-color: #5a493f;
+        color: #fff;
+        border-radius: 0px;
+        height: 36px;
+        line-height: 36px;
+      }
+      input{
+        padding-left: 20px;
+      }
+      select{
+        text-align-last: center;
+        appearance: none;
+        -moz-appearance:none;
+        -webkit-appearance: none;
+        background: url("../image/arrow.png") no-repeat right center transparent;
+        background-color: #5a493f;
+        padding-right:40px;
+        option{
+          margin: 40px;
+          background: #5a493f;
+          color: #fff;
+        }
+      }
+      select::-ms-expand { display: none; }
+
+      input:focus,
+      select:focus{
+        outline: none;
+      }
+
+      ::-webkit-input-placeholder { /* WebKit browsers */
+        color: rgba(255, 255, 255, 0.5);
+      }
+      :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: rgba(255, 255, 255, 0.5);
+      }
+      ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: rgba(255, 255, 255, 0.5);
+      }
+      :-ms-input-placeholder { /* Internet Explorer 10+ */
+        color: rgba(255, 255, 255, 0.5);
+      }
+      .name{
+        display: inline-block;
+        margin-right: 28px;
+        input{
+          width: 266px;
+        }
+      }
+      .sex{
+        display: inline-block;
+        vertical-align: top;
+        select{
+          width: 151px;
+          height: 37px;
+          line-height: 37px;
+        }
+      }
+      .birthday{
+        select{
+          width: 151px;
+        }
+      }
+      .phone{
+        input{
+          width: 449px;//548px;
+        }
+        .ic{
+          width: 103px;
+          margin-right: 8px;
+          text-align: center;
+          padding-left: 0;
+        }
+      }
+      .address{
+        select{
+          margin-right: 8px;
+          width: 181px;//230px;
+        }
+        #country{
+          width: 103px;
+        }
+        #area{
+          margin-right: 0px;
+        }
+        #zipcode{
+          display: none;
+        }
+        input{
+          width: 495px;
+          margin-left: 151px;
+          margin-top: 11px;
+        }
+      }
+      .email{
+        span{
+          letter-spacing: normal;
+          margin-right: 10px;
+        }
+        input{
+          width: 554px;//654px;
+        }
+      }
+    }
+    .btn2{
+      background: url("../image/pop3_Button.png") no-repeat;
+      width: 218px;
+      height: 61px;
+      background-size: 100%;
+      margin: 0 auto;
+      margin-top: 25px;
+      cursor: pointer;
+    }
+    .btn2:hover{
+      background-image: url("../image/pop3_ButtonY.png");
+    }
+  }
+  .currentlyLoot{
+    display: none;
+    margin: 0 auto;
+    margin-top: 405px;
+    background: url("../image/pop5_background.png") no-repeat;
+    background-size: 100%;
+    width: 962px;
+    height: 350px;
+    padding: 35px 32px;
+    .btn_X{
+      background: url("../image/pop5_X.png") no-repeat;
+      background-size: 100%;
+      width: 48px;
+      height: 48px;
+      float: right;
+    }
+    .scrollBar{
+      display: none;
+      background: url(../image/pop5_line.png) no-repeat;
+      background-size: 100%;
+      width: 9px;
+      height: 161px;
+      float: right;
+      margin-top: 89px;
+      img{
+        margin-left: -21px;
+      }
+    }
+    .own{
+      background: url("../image/pop5_prize.png") no-repeat;
+      background-size: 100%;
+      width: 717px;
+      height: 229px;
+      margin: 0 auto;
+      margin-top: 23px;
+      .visible{
+        height: 168px;
+        width: 761px;
+        overflow-y: scroll;
+        position: relative;
+        top: 61px;
+        table{
+          width: 100%;
+          color: #fff;
+          font-size: 24px;
+          border-spacing: 0px 11px;
+          border-collapse: separate;
+          tr{
+            height: 55px;
+            background-color: #5a493f;
+          }
+          .awardName{
+            padding-left: 22px;
+          }
+          .num{
+            text-align: center;
+            width: 19.6%;
+            font-size: 20px;
+            .count{
+              font-size: 26px;
+            }
+          }
+        }
+      }
+    }
+    .empty{
+      display: none;
+      background: url("../image/pop5_No_prize.png") no-repeat;
+      background-size: 100%;
+      width: 465px;
+      height: 23px;
+      margin: 0 auto;
+      margin-top: 125px;
+    }
+  }
+}
+.atentionPage{
+  display: none;
+  background-color: rgba(27, 17, 16, 0.6);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  overflow-y: scroll;
+  .pop{
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+    margin-top: 12vw;
+    background-color: white;
+    img{
+      width: 2.5vw;
+      height: 2.5vw;
+      float: right;
+      right: 3vw;
+      margin-top: 1vw;
+      margin-right: 1vw;
+    }
+    .content{
+      width: 80%;
+      height: 100%;
+      overflow-y: scroll;
+      text-align: justify;
+      color: #000;
+      margin: 0 auto;
+      font-size: 20px;
+      padding-top: 3vw;
+    }
+  }
+}
+.footer{
+  display: block;
+  background-color: #2684e9;
+  width: 100%;
+  position: relative;
+  z-index: 5;
+  .bg-white{
+    background-color: #502E27;
+    position: relative;
+    height: 77px;
+    line-height: 77px;
+    .content{
+      color: rgba(255, 255, 255, 0.3);
+      width: 100%;
+      max-width: 1300px;
+      margin: 0 auto;
+      .right{
+        display: block;
+        float: right;
+        margin-right: 5vw;
+      }
+      .left{
+        margin-left: 5vw;
+      }
+    }
+  }
+}
+.footer-forMobilePage1{
+  display: none;
+}
+
+//要套用的區塊大小 留一些空間給scrollbar
+#scrollbar1 {
+  width:80%;
+  margin:20px auto 10px;
+  position: relative;
+  .viewport{
+    height: 168px;
+    width: 717px;
+    overflow:hidden;
+    position:relative;
+  }
+  .overview {
+    list-style:none;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+  }
+  .scrollbar{
+    background: transparent url("../image/pop5_line.png") no-repeat 0 0;
+    position: absolute;
+    background-position: 0 0;
+    right: -56px;
+    top: 62px;
+    width: 38px;
+    background-position-x: center;
+    background-position-y: bottom;
+  }
+  .track{
+    // background:transparent url("../image/pop5_line.png") no-repeat 0 100%;
+    height:100%;
+    width:13px;
+    position:relative;
+    padding:0 1px;
+  }
+  .thumb{
+    background:transparent url("../image/pop5_gold.png") no-repeat 50% 100%;
+    width: 43px;
+    height: 25px;
+    cursor:pointer;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:-5px;
+    .end{
+      display: none;
+      background:transparent url("../image/bg-scrollbar-thumb-y.png") no-repeat 50% 0;
+      overflow:hidden;
+      width: 43px;
+      height: 25px;
+    }
+  }
+
+  .disable {
+    display:block;
+  }
+}
+
+@media screen and (max-width: 1551px){
+  #main{
+    .top{
+      margin: 0 auto;
+      padding-top: 3.610574vw;//56px;/1551
+      width: 82.269504vw;//1276/1551
+      position: relative;
+      z-index: 5;
+      .logo{
+        display: inline-block;
+        background: url("../image/Vidol_logo_170x55.png") no-repeat;
+        background-size: 100%;
+        width: 10.96067vw;//170px;/1551
+        height: 3.546099vw;//55px;/1551
+      }
+      .share{
+        float: right;
+        margin-top: 1.611863vw;//25px;/1551
+        div{
+          display: inline-block;
+          vertical-align: top;
+          margin-right: 0.644745vw;//10px;/1551
+          width: 1.934236vw;//30px;/1551
+          height: 1.934236vw;//30px;/1551
+        }
+        div:last-child{
+          margin-right: 0px;
+        }
+        #FB_share{
+          background: url("../image/FB.png") no-repeat;
+          background-size: 100%;
+        }
+        #vidolIG_link{
+          background: url("../image/instagram.png") no-repeat;
+          background-size: 100%;
+        }
+        #line_share{
+          background: url("../image/Line.png") no-repeat;
+          background-size: 100%;
+        }
+        #vidol-link{
+          background: url("../image/V_LOGO.png") no-repeat;
+          background-size: 100%;
+        }
+      }
+    }
+    .status{
+      letter-spacing: 0.128949vw;//2px;/1551
+      top: 1.289491vw;//20px;/1551
+      right: 5.609284vw;//87px;/1551
+      font-size: 1.547389vw;//24px;/1551
+    }
+    .mainPic{
+      width: 80.593166vw;//1250px/1551px;
+      margin-left: 7.865893vw;//122/1551
+      padding-top: 19.58vw;//320px;/1551
+      margin-top: -4.964539vw;//-77px;/1551
+      .turntable{
+        width: 42.42vw;//658px;/1551
+        height: 49.32vw;//765px;/1551
+        margin-left: 25.55%;
+        .prizeTray{
+          width: 28.7556vw;//446px;/1551
+          height: 28.691167vw;//445px;/1551
+          margin-left: 6.96325vw;//108px;/1551
+          margin-top: 6.511928vw;//101px;/1551
+        }
+        .outerFrame{
+          width: 37.524178vw;//582px;/1551
+          height: 37.459703vw;//581px;/1551
+          margin-left: 2.70793vw;//42px;/1551
+          margin-top: 2.063185vw;//32px;/1551
+          .point{
+            width: 3.675vw;//57px;/1551
+            height: 6.06vw;//94px;/1551
+            margin-top: 0.902643vw;//14px;/1551
+          }
+          .priceBtn{
+            width: 12.637vw;//196px;/1551
+            height: 12.637vw;//196px;/1551
+            margin-top: 5.609vw;//87px;/1551
+          }
+          .unclickMask{
+            width: 12.637vw;//196px;/1551
+            height: 12.637vw;//196px;/1551
+            top: -13vw;
+          }
+          .lootBtn{
+            width: 10.1225vw;//157px;/1551
+            height: 2.9vw;//45px;/1551
+          }
+        }
+      }
+      .descriptionBtn,
+      .activepriceBtn{
+        width: 10.638298vw;//165px;/1551px;
+        height: 4.061896vw;//63px;/1551px;
+        margin-top: -1.934vw;//-30px;/1551px;
+      }
+      .descriptionBtn{
+        margin-left: 30.818827vw;//478px;/1551px;
+      }
+      .activepriceBtn{
+        margin-left: 41.779497vw;//648px;/1551px;
+      }
+      .main_box{
+        width: 70.341715vw;//1091px;/1551px;
+        height: 29vw;//464px;/1551px;
+        margin-top: -1.869761vw;//-29px;/1551px;
+        .description{
+          top: 4.5vw;
+          left: 1.5vw;
+          .atentionBtn{
+            height: 1.5vw;
+            top: 21vw;
+          }
+        }
+      }
+      .activeprice{
+        width: 70.341715vw;//1091px;/1551px;
+        height: 29.916183vw;//464px;/1551px;
+        margin-top: -1.869761vw;//-29px;/1551px;
+      }
+    }
+    .becomeVIP,
+    .useOverVIP{
+      width: 87.49vw;//1357px;/1551
+      height: 66.086vw;//1025px;/1551
+      padding-top: 20.63vw;//320px;/1551
+      margin-top: -7.1vh;
+      .words{
+        width: 43.13346vw;//669px;/1551
+        height: 11.025vw;//171px;
+        margin-top: 6.7698vw;//105px;
+      }
+      .continue{
+        width: 14.958vw;//232px;
+        height: 4.84559vw;//75px;
+        margin-top: 3.41715vw;//53px;
+        margin-right: 3.868472vw;//60px;
+      }
+      .seeDrama{
+        width: 14.958vw;//232px;
+        height: 4.83559vw;//75px;
+        margin-top: 3.41715vw;//53px;
+      }
+    }
+    .organizer{
+      width: 45%;
+      height: 1.61186vw;//25px;/1551
+      margin: 1vw auto;//15px auto;/1551
+      background-position-x: 6.7698vw;//105px;/1551
+      /// position: absolute;
+      // bottom: 85px;
+      // left: calc((100% - 750px)/2);
+      .vidol{
+        width: 3.868vw;//60px;/1551
+        height: 1.418vw;//22px;/1551
+        margin-left: 13.217vw;//205px;/1551
+      }
+      .setn {
+        width: 8.38vw;//130px;/1551
+        height: 1.6118vw;//25px;/1551
+        margin-left: 10.896vw;//169px;/1551
+        margin-top: 0.257898vw;//4px;/1551
+      }
+      .electGo{
+        width: 5.41586vw;//84px;/1551
+        height: 1.934vw;//30px;/1551
+        margin-left: 0.773694vw;//12px;/1551
+      }
+    }
+  }
+  .notGetward{
+    top: 38.362347vw;//595px;/1551
+    left: calc((100% - 38.74919vw)/2);
+    width: 38.74919vw;//601px;/1551
+    height: 11.734365vw;//182px;/1551
+    img{
+      right: 2.12766vw;//33px;/1551
+      top: 1.934236vw;//30px;/1551
+    }
+  }
+  .awardBG{
+    .getRewarded_step1{
+      width: 63.700838vw;//988/1551
+      height: 50vw;
+      //margin-top: 170px;///1551
+      .awardImage{
+        width: 22.243714vw;//345px;/1551
+        height: 16.118633vw;//250px;/1551
+        line-height: 16.118633vw;//250px;/1551
+        position: relative;
+        top: 3.546099vw;//55px;/1551
+        left: 0.838169vw;//13px;/1551
+        img{
+          width: 60%;
+        }
+      }
+      .awardName{
+        width: 23.210832vw;//360px;/1551
+        height: 5.931657vw;//92px;/1551
+        line-height: 5.931657vw;//92px;/1551
+        position: relative;
+        top: 12.37911vw;//192px;/1551
+        left: 0.902643vw;//14px;/1551
+        img{
+          width: 80%;
+        }
+      }
+      .nextBtn{
+        width: 14.055448vw;//218px;/1551
+        height: 3.932946vw;//61px;/1551
+        top: 19.987vw;//310px;/1551
+        left: 0.902643vw;//14px;/1551
+      }
+    }
+    .getRewarded_step2{
+      margin-top: 21vw;//329px;/1551
+      width: 62.798vw;//974px;/1551
+      height: 39.716vw;//616px;/1551
+      padding: 33px;//66px 53px;/1551
+      .btn_X{
+        width: 3.0947vw;//48px;/1551
+        height: 3.0947vw;//48px;/1551
+      }
+      .words{
+        width: 42vw;//646px;/1551
+        height: 2.901354vw;//45px;/1551
+        margin-top: 3.4vw;
+      }
+      form{
+        width: 41.650548vw;//646px;//750-646=104/1551
+        margin-top: 1.611863vw;//25px;/1551
+        font-size: 1.611863vw;//25px;/1551
+        span{
+          letter-spacing: 0.70922vw;//11px;/1551
+        }
+        div{
+          margin-top: 0.967118vw;//15px;/1551
+        }
+        input,
+        select{
+          width: 42.94vw;//666px;/1551
+          height: 2.321vw;//36px;/1551
+          line-height: 2.321vw;//36px;/1551
+        }
+        input{
+          padding-left: 1.289491vw//20px;/1551
+        }
+        select{
+          padding-right: 2.578981vw;//40px;/1551
+          option{
+            margin: 2.578981vw;//40px;/1551
+          }
+        }
+        .name{
+          display: inline-block;
+          margin-right: 1.805vw;//28px;/1551
+          input{
+            width: 17.15vw;//266px;/1551
+          }
+        }
+        .sex{
+          display: inline-block;
+          vertical-align: top;
+          select{
+            width: 9.7356vw;//151px;/1551
+            height: 2.3855vw;//37px;/1551
+            line-height: 2.3855vw;//37px;/1551
+          }
+        }
+        .birthday{
+          select{
+            width: 9.7356vw;//151px;/1551
+          }
+        }
+        .phone{
+          input{
+            width: 28.949vw;//449px/1551;//548px;
+          }
+          .ic{
+            width: 6.64vw;//103px;/1551
+            margin-right: 0.51579vw;//8px;/1551
+          }
+        }
+        .address{
+          select{
+            margin-right: 0.51579vw;//8px;/1551
+            width: 11.66989vw;//181px;/1551
+          }
+          #country{
+            width: 6.64087vw;//103px;/1551
+          }
+          #area{
+            margin-right: 0px;
+          }
+          input{
+            width: 31.91489vw;//495px;/1551
+            margin-left: 9.735654vw;//151px;/1551
+            margin-top: 0.70922vw;//11px;/1551
+          }
+        }
+        .email{
+          span{
+            letter-spacing: normal;
+            margin-right: 0.6447vw;//10px;/1551
+          }
+          input{
+            width: 35.71889vw;//554px;/1551
+          }
+        }
+      }
+      .btn2{
+        width: 14.055vw;//218px;/1551
+        height: 3.9329vw;//61px;/1551
+        margin-top: 1.611863vw;//25px;/1551
+      }
+    }
+    .currentlyLoot{
+      margin-top: 26.112vw;//405px;/1551
+      width: 62.0245vw;//962px;/1551
+      height: 22.566vw;//350px;/1551
+      padding: 2.2566vw 2.063185vw;//35px 32px;/1551
+      .btn_X{
+        width: 3.0947vw;//48px;/1551
+        height: 3.0947vw;//48px;/1551
+      }
+      .scrollBar{
+        width: 0.580271vw;//9px;/1551
+        height: 10.3804vw;//161px;/1551
+        margin-top: 5.738vw;//89px;/1551
+        img{
+          margin-left: -1.353965vw;//-21px;/1551
+        }
+      }
+      .own{
+        width: 46.22824vw;//717px;/1551
+        height: 14.764668vw;//229px;/1551
+        margin-top: 1.482914vw;//23px;/1551
+        .visible{
+          height: 10.8317vw;//168px;/1551
+          width: 49.065vw;//761px;/1551
+          top: 3.9329vw;//61px;/1551
+          table{
+            font-size: 1.547389vw;//24px;/1551
+            border-spacing: 0px 0.70922vw;//0px 11px;/1551
+            tr{
+              height: 3.546099vw;//55px;/1551
+            }
+            .awardName{
+              padding-left: 1.41844vw;//22px;/1551
+            }
+            .num{
+              width: 19.6%;
+              font-size: 1.289491vw;//20px;/1551
+              .count{
+                font-size: 1.676338vw;//26px;/1551
+              }
+            }
+          }
+        }
+      }
+      .empty{
+        width: 29.980658vw;//465px;/1551
+        height: 1.482914vw;//23px;/1551
+        margin-top: 8.059317vw;//125px;/1551
+      }
+    }
+  }
+  //要套用的區塊大小 留一些空間給scrollbar
+  #scrollbar1{
+    margin:20px auto 10px;
+    .viewport{
+      height: 11vw;
+      width: 46.22824vw;//717px;
+    }
+    .scrollbar{
+      right: -56px;
+      top: 4.5vw;
+      width: 38px;
+    }
+    .track{
+      // background:transparent url("../image/pop5_line.png") no-repeat 0 100%;
+      width:13px;
+      padding:0 1px;
+    }
+    .thumb{
+      width: 43px;
+      height: 25px;
+      top:0;
+      left:-5px;
+    }
+  }
+}
+
+@media screen and (max-width: 1366px){
+  #main{
+    .top{
+      padding-top: 4.099561vw;//56px;/1366
+      //width: 92vw;//1258/1366
+      .logo{
+        width: 12.445095vw;//170px;/1366px;
+        height: 4.026354vw;//55px;/1366px;
+      }
+    }
+  }
+  .atentionPage{
+    .pop{
+      margin-top: 16vw;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .footer{
+    .bg-white{
+      height: 5.5vw;
+      line-height: 5.5vw;
+    }
+  }
+  .atentionPage{
+    .pop{
+      margin-top: 16vw;
+    }
+  }
+
+  .awardBG {
+    .getRewarded_step2 {
+      form {
+        select{
+          background-size: 2.5vw;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px),
+screen and (device-width: 1024px) and (device-height: 1366px){
+  body{
+    background-size: 100% 100%;
+    height: 100%;
+  }
+  .footer{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    .bg-white{
+      height: 11.328125vw;//116px;//77*1.5=115.5=>116/1024
+      line-height: 11.328125vw;
+      .content{
+        text-align: center;
+        font-size: 2vw;
+        .right{
+          display: none;
+        }
+        .left{
+          margin-left: 0vw;
+        }
+      }
+    }
+  }
+  .footer-forMobilePage1{
+    display: block;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    .bg{
+      height: 16.8vw;
+      background: url("../image/mobile/lotto/mo_footer_page1.png") no-repeat;
+      background-size: 100%;
+      width: 100%;
+      .btn-group{
+        width: 56vw;
+        margin: 0 auto;
+        display: block;
+        top: 1vw;
+        .descriptionBtn-mobile{
+          background: url("../image/mobile/mo_footer_Button_event.png") no-repeat;
+          background-size: 100%;
+        }
+        .activepriceBtn-mobile{
+          background: url("../image/mobile/mo_footer_Button_Prize.png") no-repeat;
+          background-size: 100%;
+          float: right;
+        }
+        .descriptionBtn-mobile,
+        .activepriceBtn-mobile{
+          width: 25vw;//429
+          height: 8.05vw;//429/144=24/?
+          display: inline-block;
+          vertical-align: top;
+        }
+      }
+      .content{
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        font-size: 2vw;
+        color: rgba(255, 255, 255, 0.7);
+        bottom: 2vw;
+      }
+    }
+  }
+  #main{
+    .top{
+      margin: 0 auto;
+      padding-top: 5.729167vw;//44px;/768
+      width: 100%;
+      .logo{
+        display: inline-block;
+        background: url("../image/mobile/mo_Vidol_logo.png") no-repeat;
+        background-size: 100%;
+        width: 18vw;
+        height: 6.6vw;
+        margin-left: 5vw;
+      }
+      .share{
+        margin: 0px;
+        display: inline-block;
+        margin-right: 4vw;
+        z-index: 2;
+        #vidolIG_link,
+        #vidol-link{
+          display: none;
+        }
+        #FB_share{
+          background: url("../image/mobile/mo_FB_2x.png") no-repeat;
+          background-size: 100%;
+          width: 7.3vw;//256px;/2484
+          height: 7.3vw;//256px;/2484
+          margin-right: 2.5vw;
+        }
+        #line_share{
+          background: url("../image/mobile/mo_Line_2x.png") no-repeat;
+          background-size: 100%;
+          width: 7.3vw;//256px;/2484
+          height: 7.3vw;//256px;/2484
+          margin-right: 0px;
+        }
+      }
+    }
+    .status{
+      float: left;
+      left: 18vw;
+      font-size: 2.5vw;
+      top: 3.8vw;
+      .clounmName{
+        display: none;
+      }
+      div{
+        display: inline-block;
+        vertical-align: top;
+      }
+      .forMobile{
+        display: inline-block;
+      }
+    }
+    .mainPic{
+      margin: 0 auto;
+      background: url(../image/mobile/lotto/mo_main.png) no-repeat;
+      background-size: 100%;
+      background-position-y: -2vw;
+      width: 100%;
+      position: relative;
+      .descriptionBtn,
+      .activepriceBtn,
+      .main_box,
+      .activeprice{
+        display: none;
+      }
+      .turntable{
+        background-image: url("../image/mobile/lotto/mo_Turntable_01.png");
+        width: 65vw;//1242px;
+        height: 75vw;//1456px;//1242/1256=65vw/X>>X=1256*65/1242
+        margin: 0 auto;
+        margin-top: 9vw;
+        .prizeTray{
+          background-image: url(../image/mobile/lotto/mo_Turntable_02.png);
+          width: 44.5vw;
+          height: 44.5vw;
+          margin-left: 10.45vw;
+          margin-top: 9.55vw;
+        }
+        .outerFrame{
+          background-image: url("../image/mobile/lotto/mo_Turntable_03.png");
+          width: 56.5vw;
+          height: 56.5vw;
+          margin-left: 4.46vw;
+          margin-top: 3.7vw;
+          .point{
+            background-image: url("../image/mobile/lotto/mo_Turntable_04.png");
+            width: 5vw;
+            height: 8.51485149vw;//101px/172px=5vw/?
+          }
+          .priceBtn{
+            width: 19vw;
+            height: 19vw;
+            margin-top: 8.9vw;
+          }
+          .unclickMask{
+            width: 19vw;
+            height: 19vw;
+            top: -19.5vw;
+          }
+          .lootBtn{
+            background-image: url("../image/mobile/lotto/mo_Turntable_Prize_Button.png");
+            width: 21vw;//406px;
+            height: 5.32758621vw;//406/103px;=21/X?
+            margin-top: 2vw;
+          }
+
+        }
+      }
+    }
+    .description-forMobile,
+    .activeprice-forMobile{
+      display: none;
+      background: url(../image/mobile/activeDes/mo_event_BK.png) no-repeat;
+      background-size: 100%;
+      width: 96%;
+      height: 139vw;
+      margin: 0 auto;
+      margin-top: 8.4vw;
+      .backIndex{
+        background: url(../image/mobile/activeDes/mo_event_backIndexBtn.png) no-repeat;
+        background-size: 100%;
+        width: 32vw;
+        margin-left: 5.6vw;
+        height: 18vw;
+        position: relative;
+        top: 2vw;
+      }
+      .des{
+        margin: 0 auto;
+        background: url(../image/mobile/activeDes/mo_event_stepwords.png) no-repeat;
+        background-size: 100%;
+        width: 64vw;
+        height: 89vw;
+      }
+      .atentionBtn{
+        background: url(../image/mobile/activeDes/mo_event_atention.png) no-repeat;
+        background-size: 100%;
+        width: 35vw;
+        height: 4vw;
+        margin-left: 16vw;
+        margin-top: 5vw;
+      }
+      .atentionBtn:hover{
+        background-image: url("../image/mobile/activeDes/mo_event_atentionY.png");
+      }
+    }
+
+    .activeprice-forMobile{
+      .prize{
+        margin: 0 auto;
+        background: url("../image/mobile/activeDes/mo_event_prize.png") no-repeat;
+        background-size: 100%;
+        width: 73.5vw;
+        height: 106vw;
+      }
+      .atentionBtn{
+        display: none;
+      }
+    }
+    .becomeVIP{
+      background-image: url("../image/mobile/final/mo_final_main.png");
+    }
+    .useOverVIP{
+      background-image: url("../image/mobile/final/mo_final_VIPmain.png");
+    }
+    .becomeVIP,
+    .useOverVIP{
+      width: 100vw;
+      height: 109.086vw;
+      padding-top: 33.63vh;
+      margin-top: -7.1vh;
+      margin-bottom: 3.9vw;
+      .words{
+        width: 60vw;
+        height: 16vw;
+        margin-top: 7vh;
+      }
+      .continue,
+      .seeDrama{
+        width: 23vw;
+        height: 6.8vw;
+        margin-top: 26.5vw;
+      }
+      .continue{
+        margin-right: 7vw;
+      }
+    }
+    .organizer{
+      display: none;
+      background: url(../image/mobile/unit/mo_W.png) no-repeat;
+      width: 83%;
+      height: 3.3vw;
+      margin: 0vw auto;
+      margin-left: 10vw;
+      background-size: 46%;
+      background-position-y: center;
+      position: absolute;
+      bottom: 12vh;
+      .vidol{
+        background: url(../image/mobile/unit/mo_Vidol.png) no-repeat;
+        background-size: 100%;
+        width: 10vw;
+        height: 4vw;
+        margin-left: 13vw;
+      }
+      .setn {
+        background: url(../image/mobile/unit/mo_setn.png) no-repeat;
+        background-size: 100%;
+        width: 22vw;
+        height: 4vw;
+        margin-left: 17vw;
+        margin-top: 0.257898vw;
+      }
+      .electGo{
+        background: url(../image/mobile/unit/mo_electGo.png) no-repeat;
+        background-size: 100%;
+        width: 12vw;
+        height: 4vw;
+        margin-left: 1.5vw;
+      }
+    }
+  }
+  .notGetward{
+    top: 46vh;
+    left: calc((100% - 69vw)/2);
+    background-image: url(../image/mobile/lotto/mo_pop1_no_prize.png);
+    width: 69vw;
+    height: 24.5vw;
+    img{
+      position: absolute;
+      right: 3vw;
+      top: 3vw;
+      width: 5vw;
+      height: 5vw;
+    }
+  }
+  .awardBG{
+    .getRewarded_step1{
+      background-image: url("../image/mobile/lotto/mo_pop2_red_envelope.png");
+      width: 65vw;
+      height: 85vw;
+      margin-top: 16.7vh;
+      .awardImage{
+        width: 37vw;
+        height: 31vw;
+        line-height: 31vw;
+        left: 0vw;
+        top: 4.5vw;
+        img{
+          width: 60%;
+        }
+      }
+      .awardName{
+        width: 42vw;
+        height: 12vw;
+        line-height: 12vw;
+        top: 18vw;
+        left: 0vw;
+        img{
+          width: 80%;
+        }
+      }
+      .nextBtn{
+        width: 28vw;
+        height: 8vw;
+        top: 30vw;
+        left: 0vw;
+      }
+    }
+    .getRewarded_step2{
+      margin: 0 auto;
+      margin-top: 30vw;
+      background-image: url(../image/mobile/lotto/mo_pop3_BK.png);
+      width: 70vw;
+      height: 88vw;
+      padding: 4vw 4.5vw;
+      .btn_X{
+        width: 5vw;
+        height: 5vw;
+      }
+      .words{
+        display: none;
+      }
+      form{
+        width: 61vw;
+        margin-top: 20.6vw;
+        font-size: 2.9vw;
+        span{
+          letter-spacing: 0.70922vw;//11px;/1551
+        }
+        div{
+          margin-top: 2.5vw;
+        }
+        input,
+        select{
+          width: 45vw;
+          height: 4.5vw;
+          line-height: 4.5vw;
+        }
+        input{
+          padding-left: 1.289491vw//20px;/1551
+        }
+        select{
+          padding-right: 3vw;
+          background-size: 3vw;
+          background-position-x: right;
+          option{
+            margin: 3vw;
+          }
+        }
+        .name{
+          display: inline-block;
+          margin-right: 0px;
+          input{
+            width: 31vw;
+          }
+        }
+        .sex{
+          display: inline-block;
+          vertical-align: top;
+          select{
+            width: 9.1vw;
+            height: 4.5vw;
+            line-height: 4.5vw;
+          }
+        }
+        .birthday{
+          select{
+            width: 12.25vw;
+
+          }
+        }
+        .phone{
+          input{
+            width: 40.6vw;
+          }
+          .ic{
+            width: 11vw;
+            margin-right: 0.51579vw;//8px;/1551
+          }
+        }
+        .address{
+          select{
+            margin-right: 0.51579vw;//8px;/1551
+            width: 15.55vw;
+          }
+          #country{
+            width: 11vw;
+          }
+          #area{
+            margin-right: 0px;
+          }
+          input{
+            width: 45.7vw;
+            margin-left: 15.25vw;
+            margin-top: 1.5vw;
+          }
+        }
+        .email{
+          span{
+            letter-spacing: normal;
+            margin-right: 0.6447vw;//10px;/1551
+          }
+          input{
+            width: 49vw;
+          }
+        }
+      }
+      .btn2{
+        width: 28vw;
+        height: 8vw;
+        margin-top: 7vw;
+      }
+    }
+    .currentlyLoot{
+      background-image: url("../image/mobile/lotto/mo_pop5_prizeBK.png");
+      margin-top: 39vw;
+      width: 70vw;
+      height: 69vw;
+      padding: 3vw 2.5vw;
+      .btn_X{
+        width: 5vw;
+        height: 5vw;
+      }
+      .scrollBar{
+        display: none;
+        background: url(../image/pop5_line.png) no-repeat;
+        background-size: 100%;
+        width: 9px;
+        height: 161px;
+        float: right;
+        margin-top: 89px;
+        img{
+          margin-left: -21px;
+        }
+      }
+      .own{
+        background-image: url("../image/mobile/lotto/mo_pop5_prize.png");
+        width: 100%;
+        height: 36vw;
+        margin-top: 14vw;
+        .visible{
+          height: 168px;
+          width: 761px;
+          top: 61px;
+          table{
+            font-size: 24px;
+            border-spacing: 0px 11px;
+            tr{
+              height: 55px;
+            }
+            .awardName{
+              padding-left: 2vw;
+              font-size: 2.9vw;
+            }
+            .num{
+              width: 19.6%;
+              font-size: 20px;
+              .count{
+                font-size: 26px;
+              }
+            }
+          }
+        }
+      }
+
+      .empty{
+        background-image: url("../image/mobile/lotto/mo_pop5_Noprize.png");
+        background-size: 100%;
+        width: 94%;//465px;/1024
+        height: 23px;
+        margin-top: 125px;
+      }
+    }
+  }
+  .atentionPage{
+    .pop{
+      margin-top: 16vw;
+    }
+  }
+  //要套用的區塊大小 留一些空間給scrollbar
+  #scrollbar1 {
+    width: 94%;
+    margin:20px auto 10px;
+    position: relative;
+    .viewport{
+      height: 31vw;
+      width: 100%;
+      top: 4.5vw;
+    }
+    .overview {
+      list-style:none;
+      position:absolute;
+      left:0;
+      top:0;
+      margin:0;
+    }
+    .scrollbar{
+      display: none;
+      background: transparent url("../image/pop5_line.png") no-repeat 0 0;
+      position: absolute;
+      background-position: 0 0;
+      right: -56px;
+      top: 62px;
+      width: 38px;
+      background-position-x: center;
+      background-position-y: bottom;
+    }
+    .track{
+      // background:transparent url("../image/pop5_line.png") no-repeat 0 100%;
+      height:100%;
+      width:13px;
+      position:relative;
+      padding:0 1px;
+    }
+    .thumb{
+      background:transparent url("../image/pop5_gold.png") no-repeat 50% 100%;
+      width: 43px;
+      height: 25px;
+      cursor:pointer;
+      overflow:hidden;
+      position:absolute;
+      top:0;
+      left:-5px;
+      .end{
+        display: none;
+        background:transparent url("../image/bg-scrollbar-thumb-y.png") no-repeat 50% 0;
+        overflow:hidden;
+        width: 43px;
+        height: 25px;
+      }
+    }
+    .disable {
+      display: none;
+    }
+  }
+
+  @media screen and (device-width: 1024px) and (device-height: 1366px),
+  screen and (device-width: 768px) and (device-height: 1024px) {
+    .atentionPage{
+      .pop{
+        margin-top: 31vw;
+      }
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    #main{
+      .top{
+        .share{
+          right: 4vw;
+          bottom: -7vw;
+          @media screen and (max-width: 375px){
+            right: 2vw;
+            bottom: -6vw;
+            #FB_share{
+              margin-right: 1.2vw;
+            }
+          }
+
+          @media screen and (max-width: 320px){
+            right: 6vw;
+            top: 5vw;
+            bottom: unset;
+          }
+          #FB_share,
+          #line_share {
+            width: 7.3vw;
+            height: 7.3vw;
+          }
+        }
+      }
+      .status{
+        top: 2.5vw;
+      }
+      .mainPic{
+        height: 83vh;
+        .turntable{
+          position: absolute;
+          bottom: 0px;
+          width: 100%;
+          height: 114.5vw;
+          .prizeTray{
+            width: 68vw;
+            height: 68vw;
+            margin-left: 16.3vw;
+            margin-top: 15vw;
+          }
+          .outerFrame{
+            width: 88vw;
+            height: 88vw;
+            margin-left: 6vw;
+            margin-top: 5.6vw;
+            .point{
+              width: 8.5vw;
+              height: 14vw;
+            }
+            .priceBtn{
+              width: 28vw;
+              height: 28vw;
+              margin-top: 14.5vw;
+            }
+            .unclickMask{
+              width: 28vw;
+              height: 28vw;
+              top: -28.5vw;
+            }
+            .lootBtn{
+              width: 33vw;
+              height: 8vw;
+              margin-top: 4.7vw;
+            }
+          }
+        }
+      }
+      .description-forMobile,
+      .activeprice-forMobile{
+        height: 139.5vw;
+        margin-top: 8vw;
+        .backIndex{
+          width: 40vw;
+          height: 19vw;
+        }
+        .des{
+          width: 67vw;
+          height: 89vw;
+        }
+        .prize{
+          width: 74vw;
+          height: 106vw;
+        }
+        .atentionBtn{
+          width: 38vw;
+          height: 4vw;
+          margin-left: 17vw;
+          margin-top: 8vw;
+        }
+      }
+      .becomeVIP,
+      .useOverVIP{
+        width: 100vw;
+        height: 110vw;
+        padding-top: 23.63vh;
+        margin-top: 0px;
+        .words{
+          width: 70vw;
+          height: 18vw;
+          margin-top: 7vh;
+        }
+        .continue,
+        .seeDrama{
+          width: 38vw;
+          height: 11vw;
+          margin-top: 28vw;
+        }
+        .continue{
+          margin-right: 5vw;
+        }
+      }
+      .organizer{
+        width: 88.8%;
+        height: 5vw;
+        margin: 0vw auto;
+        background-size: 55%;
+        bottom: 14vh;
+        margin-left: 6.1%;
+        .vidol{
+          width: 13vw;
+          height: 5vw;
+          margin-left: 15.3vw;
+        }
+        .setn {
+          width: 23vw;
+          height: 5vw;
+          margin-left: 21vw;
+          margin-top: 1vw;
+        }
+        .electGo{
+          width: 13vw;
+          height: 5vw;
+          margin-left: 1vw;
+          margin-top: 0.5vw;
+        }
+      }
+    }
+    .notGetward{
+      top: 42.5vh;
+      left: calc((100% - 95vw)/2);
+      width: 95vw;
+      height: 34vw;
+      img{
+        position: absolute;
+        right: 3vw;
+        top: 3vw;
+        width: 5vw;
+        height: 5vw;
+      }
+    }
+    .awardBG{
+      .getRewarded_step1{
+        width: 100%;
+        height: 131vw;
+        margin-top: 12vh;
+        .awardImage{
+          width: 60vw;
+          height: 45vw;
+          line-height: 43vw;
+          top: 9.5vw;
+          img{
+            width: 68%;
+          }
+        }
+        .awardName{
+          width: 64vw;
+          height: 15vw;
+          line-height: 15vw;
+          top: 32vw;
+          left: 0.5vw;
+          img{
+            width: 80%;
+          }
+        }
+        .nextBtn{
+          width: 37vw;
+          height: 11vw;
+          top: 52.5vw;
+          left: 0vw;
+        }
+      }
+      .getRewarded_step2{
+        width: 96vw;
+        height: 120vw;
+        padding: 5vw 5.5vw;
+        margin-top: 30vw;
+        .btn_X{
+          width: 8vw;
+          height: 8vw;
+        }
+        form{
+          width: 82.8vw;
+          font-size: 3.9vw;
+          margin-top: 27.6vw;
+          span{
+            margin-right: 0.8vw;
+          }
+          div{
+            margin-top: 3.5vw;
+          }
+          input,
+          select{
+            height: 6.5vw;
+          }
+          select{
+            background-size: 5vw;
+          }
+          .name{
+            input{
+              width: 41vw;
+            }
+          }
+          .sex{
+            select{
+              width: 13.23vw;
+              height: 6.5vw;
+            }
+          }
+          .birthday{
+            select{
+              width: 17.25vw;
+            }
+          }
+          .phone{
+            input{
+              width: 53vw;
+            }
+            .ic{
+              width: 16vw;
+            }
+          }
+          .address{
+            select{
+              width: 21.4vw;
+            }
+            #country{
+              width: 15vw;
+            }
+            input{
+              margin-top: 2.5vw;
+              margin-left: 20.8vw;
+              width: 62vw;
+            }
+          }
+          .email{
+            span{
+              margin-right: 1.5vw;
+            }
+            input{
+              width: 67vw;
+            }
+          }
+        }
+        .btn2{
+          width: 38vw;
+          height: 11.5vw;
+          margin-top: 8vw;
+        }
+      }
+      .currentlyLoot{
+        margin-top: 39vw;
+        width: 96vw;
+        height: 94vw;
+        padding: 5vw 5.5vw;
+        .btn_X{
+          width: 8vw;
+          height: 8vw;
+        }
+        .scrollBar{
+          display: none;
+          background: url(../image/pop5_line.png) no-repeat;
+          background-size: 100%;
+          width: 9px;
+          height: 161px;
+          float: right;
+          margin-top: 89px;
+          img{
+            margin-left: -21px;
+          }
+        }
+        .own{
+          width: 100%;
+          height: 36vw;
+          margin-top: 20vw;
+          .visible{
+            width: 100%;
+            top: 5.5vw;
+            table{
+              font-size: 4vw;
+              border-spacing: 0px 3vw;
+              tr{
+                height: 11.5vw;
+              }
+              .awardName{
+                padding-left: 2vw;
+                font-size: 4vw;
+              }
+              .num{
+                width: 19.6%;
+                font-size: 3vw;
+                .count{
+                  font-size: 6vw;
+                }
+              }
+            }
+          }
+        }
+        .empty{
+          width: 94%;
+          height: 23px;
+          margin-top: 30vw;
+        }
+      }
+    }
+    .atentionPage{
+      .pop{
+        margin-top: 29vw;
+        width: 90%;
+        height: 80%;
+        .content{
+          width: 80%;
+          height: 100%;
+          margin: 0 auto;
+          font-size: 13px;
+          padding-top: 4vw;
+        }
+        img{
+          width: 5vw;
+          height: 5vw;
+          margin-top: 2vw;
+          margin-right: 2vw;
+        }
+      }
+    }
+
+    //要套用的區塊大小 留一些空間給scrollbar
+    #scrollbar1 {
+      .viewport{
+        top: 5.5vw;
+        height: 43.5vw;
+      }
+      .overview {
+        list-style:none;
+        position:absolute;
+        left:0;
+        top:0;
+        margin:0;
+      }
+      .scrollbar{
+        display: none;
+        background: transparent url("../image/pop5_line.png") no-repeat 0 0;
+        position: absolute;
+        background-position: 0 0;
+        right: -56px;
+        top: 62px;
+        width: 38px;
+        background-position-x: center;
+        background-position-y: bottom;
+      }
+      .track{
+        // background:transparent url("../image/pop5_line.png") no-repeat 0 100%;
+        height:100%;
+        width:13px;
+        position:relative;
+        padding:0 1px;
+      }
+      .thumb{
+        background:transparent url("../image/pop5_gold.png") no-repeat 50% 100%;
+        width: 43px;
+        height: 25px;
+        cursor:pointer;
+        overflow:hidden;
+        position:absolute;
+        top:0;
+        left:-5px;
+        .end{
+          display: none;
+          background:transparent url("../image/bg-scrollbar-thumb-y.png") no-repeat 50% 0;
+          overflow:hidden;
+          width: 43px;
+          height: 25px;
+        }
+      }
+      .disable {
+        display: none;
+      }
+    }
+
+    .footer{
+      .bg-white{
+        top: 0px;//-10px;
+        height: 17vw;
+        line-height: 17vw;
+        .content{
+          font-size: 3vw;
+        }
+      }
+    }
+    .footer-forMobilePage1{
+      .bg{
+        .btn-group{
+          width: 78vw;
+          .descriptionBtn-mobile,
+          .activepriceBtn-mobile{
+            width: 34vw;
+            height: 10.1vw;
+          }
+        }
+        .content{
+          font-size: 3vw;
+          bottom: 0.5vw;
+        }
+      }
+    }
+  }
+}
+
+#loginBg {
+  display: none;
+  background-color: #310c0c;
+  height:100%;
+  width:100%; position:fixed; _position:absolute; top:0; z-index:1000;
+  opacity: 0.9;
+  z-index: 0;
+  width: 320px;
+}
+.ui-widget.ui-widget-content {
+  background-color: rgba(0,0,0,0.82);
+  //background-image: url(../image/Horror-hand-bg.png);
+  background-size: 190%;
+  background-position: 60% 33%;
+}
+.ui-draggable .ui-dialog-titlebar {
+  border: 0;
+  //background: url(../image/vidol-logo-01.jpg) no-repeat 50%;
+  background: none;
+  background-size: 27%;
+  padding: 15px 0;
+  background: none;
+  padding: 0px;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+  background-color: #000;
+  border-width: 0px;
+  margin-right: 10px;
+}
+.ui-dialog .ui-dialog-content {
+  padding: 30px 30px 50px;
+}
+.ui-button .ui-icon,
+.ui-button .ui-icon:hover{
+  width: 50px;
+  height: 50px;
+  background: url(../image/close.png) no-repeat;
+  background-size: 100%;
+  top: 0;
+  left: 0;
+}
+.fbShare{
+  width: 340px;
+  margin: 0 auto;
+}
+#login{
+  input {
+    width: 100%;
+    height: 40px;
+    background: none;
+    border: 0;
+    border-bottom: solid 2px;
+    border-bottom-color: rgba(255, 255, 255, 0.33);
+    margin-top: 15px;
+    color: #fff;
+  }
+  .login_vidol {
+    background-color: #f4f224;
+    color: #000;
+    margin-top: 25px;
+  }
+  .line {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.33);
+    position: relative;
+    margin-top: 95px;
+  }
+  .or{
+    color: #c1c1c1;
+    width: 37px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: -12px;
+  }
+  .text{
+    text-align: center!important;
+    span a{
+      color: #fff!important;
+    }
+  }
+}
+#login input{
+  width: 100%;
+  height: 40px;
+}
+.login_vidol{
+  background-color: #c32435;
+  width: 100%;
+  height: 40px;
+  text-align:center;
+  line-height: 40px;
+  float: left;
+  -webkit-appearance: none;
+  border: none;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+.or{
+  width: 100%;
+  text-align:center;
+}
+.login_facebook{
+  background-color: #3b5998;
+  width: 100%;
+  height: 40px;
+  text-align:center;
+  line-height: 40px;
+  float: left;
+  -webkit-appearance: none;
+  border: none;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+.noSelect
+{
+  user-select:none;
+  -o-user-select:none;
+  -moz-user-select:none;
+  -khtml-user-select:none;
+  -webkit-user-select:none;
+}
+.myMouse{ cursor: pointer; }
